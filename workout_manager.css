@@ -17,12 +17,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-exercise-img {
-  position: relative;
+	position: relative;
 }
 
 .card-exercise-img .btn {
-  position: absolute;
-  border-radius: 5px;
+	position: absolute;
+	border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+	.card_botones_xs {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
 }
 
 /* Barra de busqueda de ejercicios */
@@ -44,5 +52,5 @@ h1, h2, h3, h4, h5, h6 {
 .collapse-content {
 	max-height: 150px;
 	overflow-y: auto;
-  	height: 100%;
+	height: 100%;
 }
