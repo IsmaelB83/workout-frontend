@@ -1,0 +1,48 @@
+
+.borderred {
+	border: 1px solid red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;		
+}
+
+/* Tarjetas de ejercicios para rutinas */
+.card-exercise .card-footer > p {
+	line-height: 1.1;
+}
+
+.card-exercise .card-body > a {
+	text-decoration: none;
+}
+
+.card-exercise-img {
+  position: relative;
+}
+
+.card-exercise-img .btn {
+  position: absolute;
+  border-radius: 5px;
+}
+
+/* Barra de busqueda de ejercicios */
+#filtro_ejercicios #accordion .panel-heading {
+	color: #9fabb7;
+}
+#filtro_ejercicios .panel-heading h4 {
+	font-family: "Open Sans", sans-serif !important;
+	font-size: 13px !important;
+	font-weight: 600 !important;
+	text-transform: uppercase;
+}
+
+#filtro_ejercicios {
+	color: #66717d !important;
+	font-size: 13px;
+}
+
+.collapse-content {
+	max-height: 150px;
+	overflow-y: auto;
+  	height: 100%;
+}

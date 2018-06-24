@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Other css-->
+	<link rel="stylesheet" href="workout_manager.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<!-- Titulo web -->
+	<title>Workout Planner</title>
+</head>
+<body>  
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8">
+				<!-- Ejercicio seleccionado -->
+				<div class="card flex-md-row mt-3" style="border-bottom: 0px;"> 
+					<div class="card-body d-flex flex-column align-items-start">
+						<strong class="d-inline-block mb-1 text-primary">Biceps</strong>
+						<h3 class="mb-2"><a href="#" class="text-dark"> Curl de Biceps	</a></h3>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur
+							aperiam reiciendis animi explicabo blanditiis laborum sequi.
+						</p>
+						<button type="button" class="btn btn-sm btn-primary">
+							<span class="fa fa-search" aria-hidden="true"></span> Ver ejercicio
+						</button>
+					</div>
+					<img class="card-img-right flex-auto d-none d-lg-block w-100" src="http://via.placeholder.com/150x150/55595C?text=Thumbnail">
+				</div>
+				<!-- Sets -->
+				<div class="card" style="border-top: 0px;"> 
+					<div class="card-body">
+						<div class="form-row">
+							<label for="sets" class="col-1 col-form-label-sm mb-1">Series:</label>
+							<div class="col-2">
+								<input type="number" class="form-control form-control-sm" id="sets" max=20 min=1 value="4">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2 offset-1 mb-1">
+								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="12">
+							</div>
+							<div class="form-group col-md-3 mb-1">
+								<select id="inputState" class="form-control form-control-sm">
+									<option value="1">Reps.</option>
+									<option value="2">Minutes</option>
+									<option value="3">Seconds</option>
+									<option value="4">Kms.</option>
+									<option value="5">AMRAP</option>
+									<option value="6">Fallo</option>
+								</select>
+							</div>
+							<div class="form-group col-md-2 mb-1">
+								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="20">
+							</div>
+							<div class="form-group col-md-3 mb-1">
+								<select id="inputState" class="form-control form-control-sm">
+									<option value="1">Kgs.</option>
+									<option value="2">Peso propio</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2 offset-1 mb-1">
+								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="10">
+							</div>
+							<div class="form-group col-md-3 mb-1">
+								<select id="inputState" class="form-control form-control-sm">
+									<option value="1">Reps.</option>
+									<option value="2">Minutes</option>
+									<option value="3">Seconds</option>
+									<option value="4">Kms.</option>
+									<option value="5">AMRAP</option>
+									<option value="6">Fallo</option>
+								</select>
+							</div>
+							<div class="form-group col-md-2 mb-1">
+								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="22">
+							</div>
+							<div class="form-group col-md-3 mb-1">
+								<select id="inputState" class="form-control form-control-sm">
+									<option value="1">Kgs.</option>
+									<option value="2">Peso propio</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2 offset-1 mb-1">
+								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="8">
+							</div>
+							<div class="form-group col-md-3 mb-1">
+								<select id="inputState" class="form-control form-control-sm">
+									<option value="1">Reps.</option>
+									<option value="2">Minutes</option>
+									<option value="3">Seconds</option>
+									<option value="4">Kms.</option>
+									<option value="5">AMRAP</option>
+									<option value="6">Fallo</option>
+								</select>
+							</div>
+							<div class="form-group col-md-2 mb-1">
+								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="24">
+							</div>
+							<div class="form-group col-md-3 mb-1">
+								<select id="inputState" class="form-control form-control-sm">
+									<option value="1">Kgs.</option>
+									<option value="2">Peso propio</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2 offset-1 mb-1">
+								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="6">
+							</div>
+							<div class="form-group col-md-3 mb-1">
+								<select id="inputState" class="form-control form-control-sm">
+									<option value="1">Reps.</option>
+									<option value="2">Minutes</option>
+									<option value="3">Seconds</option>
+									<option value="4">Kms.</option>
+									<option value="5">AMRAP</option>
+									<option value="6">Fallo</option>
+								</select>
+							</div>
+							<div class="form-group col-md-2 mb-1">
+								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="26">
+							</div>
+							<div class="form-group col-md-3 mb-1">
+								<select id="inputState" class="form-control form-control-sm">
+									<option value="1">Kgs.</option>
+									<option value="2">Peso propio</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer">
+						<button type="button" class="btn btn-sm btn-primary">
+							<span class="fas fa-plus" aria-hidden="true"></span> Añadir
+						</button>
+						<button type="button" class="btn btn-sm btn-primary">
+							<span class="fas fa-minus" aria-hidden="true"></span> Descartar
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></body>
+</html>
