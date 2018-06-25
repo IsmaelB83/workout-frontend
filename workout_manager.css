@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Playfair Display', serif;		
 }
 
-/* Tarjetas de ejercicios para rutinas */
+/* Tarjetas de ejercicios rutina */
 .card-exercise .card-footer > p {
 	line-height: 1.1;
 }
@@ -31,6 +31,15 @@ h1, h2, h3, h4, h5, h6 {
 		top: 5px;
 		right: 5px;
 	}
+}
+
+/* Tarjetas de ejercicios lista */
+.card-exercise-list .card-body > p {
+	line-height: 1.1;
+}
+
+.card-exercise-list .card-body > a {
+	text-decoration: none;
 }
 
 /* Barra de busqueda de ejercicios */
