@@ -1,0 +1,683 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight-bold \tBootstrap 4 Class"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"fle-",
+				"flex-row \tBootstrap 4 Class"
+			],
+			[
+				"align-ite",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"align-content",
+				"align-content-center \tBootstrap 4 Class"
+			],
+			[
+				"text-r",
+				"text-lg-right \tBootstrap 4 Class"
+			],
+			[
+				"align-self",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"mu",
+				"text-muted \tBootstrap 4 Class"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"btn-s",
+				"btn-sm \tBootstrap 4 Class"
+			],
+			[
+				"tex",
+				"text-left \tBootstrap 4 Class"
+			],
+			[
+				"alif",
+				"align-self-end \tBootstrap 4 Class"
+			],
+			[
+				"ali",
+				"align-self-start \tBootstrap 4 Class"
+			],
+			[
+				"custom-sele",
+				"custom-select-sm \tBootstrap 4 Class"
+			],
+			[
+				"col-fom-label",
+				"col-form-label-sm \tBootstrap 4 Class"
+			],
+			[
+				"custom",
+				"custom-file \tBootstrap 4 Class"
+			],
+			[
+				"col-form",
+				"col-form-label-sm \tBootstrap 4 Class"
+			],
+			[
+				"selec",
+				"selected\tAttr"
+			],
+			[
+				"off",
+				"offset-2 \tBootstrap 4 Class"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"sel",
+				"align-self-end \tBootstrap 4 Class"
+			],
+			[
+				"align-it",
+				"align-items-start \tBootstrap 4 Class"
+			],
+			[
+				"align",
+				"align-self-end \tBootstrap 4 Class"
+			],
+			[
+				"self",
+				"align-self-end \tBootstrap 4 Class"
+			],
+			[
+				"player",
+				"playerTurn"
+			],
+			[
+				"pla",
+				"playerTurn"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"align-sel",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"bread",
+				"breadcrumb-item \tBootstrap 4 Class"
+			],
+			[
+				"navbar-t",
+				"navbar-toggler \tBootstrap 4 Class"
+			],
+			[
+				"mt-",
+				"mt-5 \tBootstrap 4 Class"
+			],
+			[
+				"align-con",
+				"align-content-center \tBootstrap 4 Class"
+			],
+			[
+				"bacc",
+				"background-color\tproperty"
+			],
+			[
+				"list-",
+				"list-inline \tBootstrap 4 Class"
+			],
+			[
+				"just",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"primary",
+				"text-primary \tBootstrap 4 Class"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text",
+				"text-hide \tBootstrap 4 Class"
+			],
+			[
+				"hidden-xl",
+				"hidden-xl-down \tBootstrap 4 Class"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"TEXT",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"disp",
+				"displayStudents"
+			],
+			[
+				"stu",
+				"students"
+			],
+			[
+				"str",
+				"strAux"
+			],
+			[
+				"lv_",
+				"lv_lbs"
+			],
+			[
+				"lv",
+				"lv_kgs"
+			],
+			[
+				"tab",
+				"tabindex\tAttr"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"auto",
+				"autofocus\tAttr"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"paddig",
+				"padding-top"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"hidd",
+				"hidden-md"
+			],
+			[
+				"hid",
+				"hidden-sm"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"pull",
+				"pull-left"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"pu",
+				"pull-right"
+			],
+			[
+				"paddin-",
+				"padding-left"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"im",
+				"img-responsive"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"hidden-",
+				"hidden-sm"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"drop",
+				"dropdown"
+			],
+			[
+				"collap",
+				"collapse"
+			],
+			[
+				"collapse",
+				"collapse1"
+			],
+			[
+				"font-s",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indentation\t",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indentation",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/trama/Desktop/projects/workout-frontend",
+		"/home/trama/Desktop/projects/workout-frontend/img"
+	],
+	"file_history":
+	[
+		"/home/trama/Desktop/projects/workout-frontend/muscles.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout_list.html",
+		"/home/trama/Desktop/projects/workout-frontend/index.html",
+		"/home/trama/Desktop/projects/workout-frontend/form_workout.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_add_routine.html",
+		"/home/trama/Desktop/projects/workout-frontend/components/exercise_card_workout.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_search.html",
+		"/home/trama/Desktop/projects/workout-frontend/components/exercise_card_result_list.html",
+		"/home/trama/Desktop/projects/workout-frontend/workout_manager.css",
+		"/home/trama/Desktop/projects/workout-frontend/exercuse_search.html",
+		"/home/trama/Desktop/projects/workout-frontend/style.css",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/JQuery/ConnectFour.html",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/JQuery/ConnectFour.js",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/DOM/TresEnRaya.js",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/conFusion/index.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/conFusion/contactus.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/conFusion/aboutus.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/conFusion/css/styles.css",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_2/06_additional_resources.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/conFusion/css/estilos.css",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/06_assignment/project/aboutus.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/06_assignment/project/index.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/06_assignment/project/aboutus_me.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/06_assignment/project/package.json",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/06_assignment/project/css/styles.css",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/05_responsive_design_bootstrap_grid/conFusion/index.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/06_assignment/project/css/estilos.css",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/05_responsive_design_bootstrap_grid/conFusion/styles.css",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/05_responsive_design_bootstrap_grid/conFusion/css/estilos.css",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/git-test/index.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_1/04_introduction_bootstrap/Bootstrap4-starter/Bootstrap4/conFusion/package.json",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/DOM/TresEnRaya.html",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/DOM/Part1_Color_Changer.js",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/DOM/Part1_MainPage.html",
+		"/home/trama/Desktop/udemy/[01.Co] - Django-Python-Full-Stack-Web-Devloper-master/Document_Object_Model/Part2_Content.html",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/Javascript 2/Part6_Objects_Exercise.js",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/Javascript 2/Ejercicio_Arrays_4.html",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/Javascript 2/javascript_4.js",
+		"/home/trama/Desktop/udemy/[01.Co] - Django-Python-Full-Stack-Web-Devloper-master/Javascript_Level_Two/Part4_Array_Exercise.js",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/Javascript 2/Part4_Array_Exercise.html",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/Javascript 2/index.html",
+		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/Javascript 2/functions_2.js",
+		"/home/trama/Desktop/udemy/[01.Co] - Django-Python-Full-Stack-Web-Devloper-master/Javascript_Level_Two/Part2_Function_Exercises.js",
+		"/home/trama/Desktop/important/programming/Udemy/Django-Python-Full-Stack-Web-Devloper-master/00. Exercices/ejercicio9.html",
+		"/home/trama/Desktop/important/programming/Udemy/Django-Python-Full-Stack-Web-Devloper-master/00. Exercices/ejercicio9.js",
+		"/home/trama/Desktop/important/programming/Udemy/Django-Python-Full-Stack-Web-Devloper-master/00. Exercices/styles.css",
+		"/home/trama/Desktop/important/programming/Udemy/Django-Python-Full-Stack-Web-Devloper-master/00. Exercices/ejercicio6.js",
+		"/home/trama/Desktop/important/programming/Udemy/Django-Python-Full-Stack-Web-Devloper-master/00. Exercices/js_ejercicio6.html",
+		"/home/trama/Desktop/important/programming/Udemy/Django-Python-Full-Stack-Web-Devloper-master/00. Exercices/ejercicio3.js",
+		"/home/trama/Desktop/important/programming/Udemy/Django-Python-Full-Stack-Web-Devloper-master/00. Exercices/js_ejercicio3.html",
+		"/home/trama/Desktop/important/programming/Udemy/Django-Python-Full-Stack-Web-Devloper-master/00. Exercices/ejercicio3.html",
+		"/home/trama/Desktop/Workspace/myweb/css/blog.css",
+		"/home/trama/Desktop/Workspace/myweb/home.html",
+		"/home/trama/Desktop/Workspace/myweb/contact.html",
+		"/home/trama/Desktop/Workspace/myweb/archive.html",
+		"/home/trama/Desktop/Workspace/myweb/login.html",
+		"/home/trama/Desktop/Workspace/bootstrap/formularios/validation_styles.html",
+		"/home/trama/Desktop/Workspace/bootstrap/css/bootstrap.css",
+		"/home/trama/Desktop/Workspace/bootstrap/css/bootstrap.min.css",
+		"/home/trama/Desktop/Workspace/bootstrap/practicas/comentarios/index.html",
+		"/home/trama/Desktop/Workspace/bootstrap/formularios/cuadros_ayuda.html",
+		"/home/trama/Desktop/Workspace/bootstrap/practicas/comentarios/css/estilos.css",
+		"/home/trama/Desktop/Workspace/myweb/main.html",
+		"/home/trama/Desktop/Workspace/bootstrap/formularios/formularios.html",
+		"/home/trama/Desktop/Workspace/bootstrap/formularios/variantes_input.html",
+		"/home/trama/Desktop/Workspace/bootstrap/05-formularios/3-grid-formularios.html",
+		"/home/trama/Desktop/Workspace/bootstrap/05-formularios/4-checkbox-radiobuttons.html",
+		"/home/trama/Desktop/Workspace/bootstrap/05-formularios/1-formularios.html",
+		"/home/trama/Desktop/Workspace/bootstrap/05-formularios/2-inline-forms.html",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/css/blog.css",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/blog_and_post.html",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/css/bootstrap-3.3.0.css",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/css/bootstrap.css",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/css/font-awesome.css",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/css/bootstrap-social.css",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/js/npm.js",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/bootstrap.js",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/js/jquery-1.11.1.js",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/js/bootstrap.js",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/css/font-awesome.min.css",
+		"/home/trama/Desktop/Share _AddToAny Sharing Plugin for WordPress_ - AddToAny_files/main.13.min.css",
+		"/home/trama/Desktop/Share _AddToAny Sharing Plugin for WordPress_ - AddToAny_files/index.7.min.css",
+		"/home/trama/Desktop/Share _AddToAny Sharing Plugin for WordPress_ - AddToAny_files/icons.23.svg.css",
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_alineadas_horizontalmente.html",
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/grid.html",
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_automaticas.html",
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_alineadas_verticalmente.html",
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_anidadas.html",
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/offseting.html",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/bootstrap.min.css",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/blog.css",
+		"/home/trama/Desktop/Workspace/bootstrap/myweb/base.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/11-dropdownbuttons.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/10-collapse.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/9-carousel.html",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/Tarjeta SD/bootstrap/9-carousel.html",
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/carousel.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/8-masonry-cards.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/7-cards2.html",
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/cards.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/6-cards.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/5-grupo-botones.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/3-botones.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/4-botones2.html",
+		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/2-badges-insignias.html",
+		"/home/trama/Desktop/Workspace/bootstrap/4-componentes/1-alerts.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"%;\"",
+			"  +=\t",
+			" class=\"text-dark\"",
+			"<h3>",
+			"max-width: 175px; max-height: 175px;",
+			"</p>",
+			"<p class=\"card-text mb-2\">",
+			"<span class=\"fa fa-plus\" aria-hidden=\"true\"></span>",
+			"<span class=\"fa fa-search\" aria-hidden=\"true\"></span>",
+			"h3",
+			"exercise",
+			"sport",
+			"fa fa-plus-square",
+			"fa fa-plus-square-o",
+			"glyphicon glyphicon-",
+			"<strong class=\"d-inline-block ",
+			"<strong class=\"d-inline-block",
+			"<div class=\"card\">",
+			"card-img-button",
+			"<small><strong class=\"d-inline-block mb-1",
+			"glyphicon glyphicon-",
+			"panel",
+			"glyphicon glyphicon-",
+			"glyphicon glyphicon",
+			"\t\t\t\t\t\t\t<",
+			"            \t\t\t\t\t\t<",
+			".js",
+			"Mathmenu",
+			"row",
+			"container",
+			"document",
+			"casilla"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"  += \"",
+			"",
+			"<h5>",
+			"max-width: 150px; max-height: 150px;",
+			"</small></p>",
+			"<p class=\"card-text mb-2 text-muted\"><small>",
+			"<span class=\"fa fa-plus\"></span>",
+			"<span class=\"fa fa-search\"></span>",
+			"far fa-plus-square",
+			"fa fa-plus-square",
+			"fa fa-",
+			"<strong class=\"",
+			"<div class=\"card card-exercise\">",
+			"card-exercise-img",
+			"<small><strong class=\"d-inline-block",
+			"fa fa-",
+			"card",
+			"fa fa-",
+			"cas"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "workout_frontend.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

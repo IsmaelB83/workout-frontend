@@ -26,10 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 600px) {
-	.card_botones_xs {
+	 .card-exercise .card_botones_xs {
 		position: absolute;
-		top: 5px;
-		right: 5px;
+		top: -110px;
+		right: 0px;
 	}
 }
 
@@ -40,6 +40,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-exercise-list .card-body > a {
 	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	 .card-exercise-list .card_botones_xs {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
 }
 
 /* Barra de busqueda de ejercicios */

@@ -30,11 +30,11 @@
 								</p>
 								<div class="px-4">
 									<span class="badge badge-primary">Musculos primarios</span>
-									<small><strong> Biceps</strong></small>
+									<small><strong> <a href="#">Biceps</a></strong></small>
 								</div>
 								<div class="px-4">
 									<span class="badge badge-secondary">Musculos secundarios</span>
-									<small><strong> Antebrazo, Hombro</strong></small>
+									<small><strong> <a href="#">Antebrazo</a>, <a href="#">Hombro</a></strong></small>
 								</div>
 							</div>
 							<div class="col-4">
@@ -46,21 +46,21 @@
 				<!-- Sets -->
 				<div class="card mt-2"> 
 					<h5 class="card-header"><i class="fas fa-dumbbell"></i> Sets a ejecutar</h5>
-					<div class="card-body">
+					<div id="card_sets" class="card-body">
 						<!-- Numero de sets -->
 						<div class="form-row">
 							<label for="sets" class="col-1 col-form-label-sm mb-1">Series:</label>
 							<div class="col-2">
-								<input type="number" class="form-control form-control-sm" id="sets" max=20 min=1 value="4">
+								<input id="num_sets" type="number" class="form-control form-control-sm" max=20 min=1 value="1">
 							</div>
 						</div>
-						<!-- Set 1 -->
+						<!-- Sets -->
 						<div class="form-row">
 							<div class="form-group col-md-2 offset-1 mb-1">
-								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="12">
+								<input id="reps_1" type="number" class="form-control form-control-sm" max=9999 min=1 value="12">
 							</div>
 							<div class="form-group col-md-3 mb-1">
-								<select id="inputState" class="form-control form-control-sm">
+								<select id="repsUN_1" class="form-control form-control-sm">
 									<option value="1">Reps.</option>
 									<option value="2">Minutes</option>
 									<option value="3">Seconds</option>
@@ -70,85 +70,10 @@
 								</select>
 							</div>
 							<div class="form-group col-md-2 mb-1">
-								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="20">
+								<input type="carga_1" class="form-control form-control-sm" id="sets" max=9999 min=1 value="20">
 							</div>
 							<div class="form-group col-md-3 mb-1">
-								<select id="inputState" class="form-control form-control-sm">
-									<option value="1">Kgs.</option>
-									<option value="2">Peso propio</option>
-								</select>
-							</div>
-						</div>
-						<!-- Set 2 -->
-						<div class="form-row">
-							<div class="form-group col-md-2 offset-1 mb-1">
-								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="10">
-							</div>
-							<div class="form-group col-md-3 mb-1">
-								<select id="inputState" class="form-control form-control-sm">
-									<option value="1">Reps.</option>
-									<option value="2">Minutes</option>
-									<option value="3">Seconds</option>
-									<option value="4">Kms.</option>
-									<option value="5">AMRAP</option>
-									<option value="6">Fallo</option>
-								</select>
-							</div>
-							<div class="form-group col-md-2 mb-1">
-								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="22">
-							</div>
-							<div class="form-group col-md-3 mb-1">
-								<select id="inputState" class="form-control form-control-sm">
-									<option value="1">Kgs.</option>
-									<option value="2">Peso propio</option>
-								</select>
-							</div>
-						</div>
-						<!-- Set 3 -->
-						<div class="form-row">
-							<div class="form-group col-md-2 offset-1 mb-1">
-								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="8">
-							</div>
-							<div class="form-group col-md-3 mb-1">
-								<select id="inputState" class="form-control form-control-sm">
-									<option value="1">Reps.</option>
-									<option value="2">Minutes</option>
-									<option value="3">Seconds</option>
-									<option value="4">Kms.</option>
-									<option value="5">AMRAP</option>
-									<option value="6">Fallo</option>
-								</select>
-							</div>
-							<div class="form-group col-md-2 mb-1">
-								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="24">
-							</div>
-							<div class="form-group col-md-3 mb-1">
-								<select id="inputState" class="form-control form-control-sm">
-									<option value="1">Kgs.</option>
-									<option value="2">Peso propio</option>
-								</select>
-							</div>
-						</div>
-						<!-- Set 4 -->
-						<div class="form-row">
-							<div class="form-group col-md-2 offset-1 mb-1">
-								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="6">
-							</div>
-							<div class="form-group col-md-3 mb-1">
-								<select id="inputState" class="form-control form-control-sm">
-									<option value="1">Reps.</option>
-									<option value="2">Minutes</option>
-									<option value="3">Seconds</option>
-									<option value="4">Kms.</option>
-									<option value="5">AMRAP</option>
-									<option value="6">Fallo</option>
-								</select>
-							</div>
-							<div class="form-group col-md-2 mb-1">
-								<input type="number" class="form-control form-control-sm" id="sets" max=9999 min=1 value="26">
-							</div>
-							<div class="form-group col-md-3 mb-1">
-								<select id="inputState" class="form-control form-control-sm">
+								<select id="cargaUN_1" class="form-control form-control-sm">
 									<option value="1">Kgs.</option>
 									<option value="2">Peso propio</option>
 								</select>
@@ -173,4 +98,36 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></body>
+<script>
+	$(document).ready(function () {
+		$('#num_sets').on('input', function() { 
+			card_sets = $('#card_sets');
+			var lines 	= "	<div class=\"form-row\">";
+			    lines  += "		<div class=\"form-group col-md-2 offset-1 mb-1\">";
+				lines  += "			<input id=\"reps_1\" type=\"number\" class=\"form-control form-control-sm\" max=9999 min=1 value=\"12\">";
+				lines  += "		</div>";
+				lines  += "		<div class=\"form-group col-md-3 mb-1\">";
+				lines  += "			<select id=\"repsUN_1\" class=\"form-control form-control-sm\">";
+				lines  += "				<option value=\"1\">Reps.</option>";
+				lines  += "				<option value=\"2\">Minutes</option>";
+				lines  += "				<option value=\"3\">Seconds</option>";
+				lines  += "				<option value=\"4\">Kms.</option>";
+				lines  += "				<option value=\"5\">AMRAP</option>";
+				lines  += "				<option value=\"6\">Fallo</option>";
+				lines  += "			</select>";
+				lines  += "		</div>";
+				lines  += "		<div class=\"form-group col-md-2 mb-1\">";
+				lines  += "			<input type=\"carga_1\" class=\"form-control form-control-sm\" id=\"sets\" max=9999 min=1 value=\"20\">";
+				lines  += "		</div>";
+				lines  += "		<div class=\"form-group col-md-3 mb-1\">";
+				lines  += "			<select id=\"cargaUN_1\" class=\"form-control form-control-sm\">";
+				lines  += "				<option value=\"1\">Kgs.</option>";
+				lines  += "				<option value=\"2\">Peso propio</option>";
+				lines  += "			</select>";
+				lines  += "		</div>";
+				lines  += "</div>";
+			card_sets.append(lines);
+		})
+	});
+</script>
 </html>
