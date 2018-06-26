@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Other css-->
+	<link rel="stylesheet" href="workout_manager.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Titulo web -->
+	<title>Workout Planner</title>
+</head>
+<body>	
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-6">
+				<ul class="mainmenu">
+					<li><img src="images/user.png" alt="User icon" class="icon"><span>Account<span></li>
+						<ul class="submenu">
+							<div class="expand-triangle"><img src="images/expand.png"></div>
+							<li><span>Basics</span></li>
+							<li><span>Picture</span></li>
+							<li><span>Go Premium</span></li>
+						</ul>
+					<li><img src="images/envelope.png" alt="Envelope icon" class="icon"><span>Messages</span><div class="messages">23</div></li>
+						<ul class="submenu">
+							<div class="expand-triangle"><img src="images/expand.png"></div>
+							<li><span>New</span></li>
+							<li><span>Sent</span></li>
+							<li><span>Trash</span></li>
+						</ul>
+					<li><img src="images/cog.png" alt="Cog icon" class="icon"><span>Settings</span></li>
+						<ul class="submenu">
+							<div class="expand-triangle"><img src="images/expand.png"></div>
+							<li><span>Language</span></li>
+							<li><span>Password</span></li>
+							<li><span>Notifications</span></li>
+							<li><span>Privacy</span></li>
+							<li><span>Payments</span></li>
+						</ul>
+					<li><img src="images/key.png" alt="Key icon" class="icon"><span>Logout</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></body>
+<script>
+	$(document).ready( function() {
+		var $submenu = $('.submenu');
+		var $mainmenu = $('.mainmenu');
+		$submenu.hide();
+		$submenu.first().delay(400).slideDown(700);
+		$submenu.on('click','li', function() {
+			$submenu.siblings().find('li').removeClass('chosen');
+			$(this).addClass('chosen');
+		});
+		$mainmenu.on('click', 'li', function() {
+			$(this).next('.submenu').slideToggle().siblings('.submenu').slideUp();
+		});
+		$mainmenu.children('li:last-child').on('click', function() {
+			$mainmenu.fadeOut().delay(500).fadeIn();
+		});
+	});
+</script>
+
+</html>
