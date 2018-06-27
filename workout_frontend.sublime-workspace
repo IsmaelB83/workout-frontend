@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"align",
+				"align-content-sm-end \tBootstrap 4 Class"
+			],
+			[
+				"alig",
+				"align-self-end \tBootstrap 4 Class"
+			],
+			[
+				"d-xs-",
+				"hidden-xs-down \tBootstrap 4 Class"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"heig",
+				"height\tproperty"
+			],
+			[
 				"font",
 				"font-weight-bold \tBootstrap 4 Class"
 			],
@@ -52,10 +80,6 @@
 				"align-self-end \tBootstrap 4 Class"
 			],
 			[
-				"ali",
-				"align-self-start \tBootstrap 4 Class"
-			],
-			[
 				"custom-sele",
 				"custom-select-sm \tBootstrap 4 Class"
 			],
@@ -90,10 +114,6 @@
 			[
 				"align-it",
 				"align-items-start \tBootstrap 4 Class"
-			],
-			[
-				"align",
-				"align-self-end \tBootstrap 4 Class"
 			],
 			[
 				"self",
@@ -264,10 +284,6 @@
 				"padding-left"
 			],
 			[
-				"alig",
-				"text-align"
-			],
-			[
 				"te",
 				"text-align"
 			],
@@ -319,6 +335,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "menu.html",
+			"settings":
+			{
+				"buffer_size": 9683,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "workout_manager.css",
+			"settings":
+			{
+				"buffer_size": 1957,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -331,6 +365,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"indde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"INDE",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"inde",
 				"Indentation: Reindent Lines"
@@ -396,21 +438,25 @@
 	},
 	"expanded_folders":
 	[
-		"/home/trama/Desktop/projects/workout-frontend",
-		"/home/trama/Desktop/projects/workout-frontend/img"
+		"/home/trama/Desktop/projects/workout-frontend"
 	],
 	"file_history":
 	[
-		"/home/trama/Desktop/projects/workout-frontend/muscles.html",
-		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout_list.html",
-		"/home/trama/Desktop/projects/workout-frontend/index.html",
+		"/home/trama/Desktop/projects/workout-frontend/workout_manager.css",
+		"/home/trama/Desktop/projects/workout-frontend/muscles_groups.html",
+		"/home/trama/Desktop/projects/workout-frontend/menu.html",
 		"/home/trama/Desktop/projects/workout-frontend/form_workout.html",
-		"/home/trama/Desktop/projects/workout-frontend/exercise_add_routine.html",
-		"/home/trama/Desktop/projects/workout-frontend/components/exercise_card_workout.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout_list.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_add_routine.html",
+		"/home/trama/Desktop/projects/workout-frontend/css/style.css",
+		"/home/trama/Desktop/projects/workout-frontend/js/script.js",
+		"/home/trama/Desktop/projects/workout-frontend/muscles.html",
+		"/home/trama/Desktop/projects/workout-frontend/muscle_groups_carousel.html",
+		"/home/trama/Desktop/projects/workout-frontend/index.html",
+		"/home/trama/Desktop/projects/workout-frontend/components/exercise_card_workout.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_search.html",
 		"/home/trama/Desktop/projects/workout-frontend/components/exercise_card_result_list.html",
-		"/home/trama/Desktop/projects/workout-frontend/workout_manager.css",
 		"/home/trama/Desktop/projects/workout-frontend/exercuse_search.html",
 		"/home/trama/Desktop/projects/workout-frontend/style.css",
 		"/home/trama/Desktop/udemy/[00.Ex] - Django-Python-Full-Stack-Web-Devloper-master/JQuery/ConnectFour.html",
@@ -511,7 +557,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -525,6 +571,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"back",
+			"<span><i class=\"fas fa-dumbbell\">",
+			"<li class=\"p-2\">",
+			"<div class=\"messages\">",
+			"glyphicon glyphicon-",
+			">\n",
 			"%;\"",
 			"  +=\t",
 			" class=\"text-dark\"",
@@ -564,6 +616,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<span><i class=\"fas fa-dumbbell mr-2\">",
+			"<li class=\"px-3 py-2\">",
+			"<span class=\"badge badge-pill badge-secondary\">",
+			"fa fa-",
 			"  += \"",
 			"",
 			"<h5>",
@@ -593,8 +649,66 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8349,
+								8349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 545.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "workout_manager.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -637,7 +751,7 @@
 	"project": "workout_frontend.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -675,7 +789,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 241.0,
+	"side_bar_width": 240.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

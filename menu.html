@@ -11,40 +11,140 @@
 	<link rel="stylesheet" href="workout_manager.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
 	<!-- Titulo web -->
 	<title>Workout Planner</title>
 </head>
 <body>	
 	<div class="container">
 		<div class="row mt-5">
-			<div class="col-6">
-				<ul class="mainmenu">
-					<li><img src="images/user.png" alt="User icon" class="icon"><span>Account<span></li>
-						<ul class="submenu">
-							<div class="expand-triangle"><img src="images/expand.png"></div>
-							<li><span>Basics</span></li>
-							<li><span>Picture</span></li>
-							<li><span>Go Premium</span></li>
-						</ul>
-					<li><img src="images/envelope.png" alt="Envelope icon" class="icon"><span>Messages</span><div class="messages">23</div></li>
-						<ul class="submenu">
-							<div class="expand-triangle"><img src="images/expand.png"></div>
-							<li><span>New</span></li>
-							<li><span>Sent</span></li>
-							<li><span>Trash</span></li>
-						</ul>
-					<li><img src="images/cog.png" alt="Cog icon" class="icon"><span>Settings</span></li>
-						<ul class="submenu">
-							<div class="expand-triangle"><img src="images/expand.png"></div>
-							<li><span>Language</span></li>
-							<li><span>Password</span></li>
-							<li><span>Notifications</span></li>
-							<li><span>Privacy</span></li>
-							<li><span>Payments</span></li>
-						</ul>
-					<li><img src="images/key.png" alt="Key icon" class="icon"><span>Logout</span></li>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<ul class="mainmenu list-unstyled">
+					<li class="px-3 py-2">
+						<span><i class="fas fa-dumbbell mr-2"></i> Hombros</span>
+						<div class="messages"><i class="badge badge-pill badge-secondary">3</i></div>
+					</li>
+					<ul class="submenu list-unstyled">
+						<li class="px-3 pt-2"><span>Deltoide anterior</span></li>
+						<li class="px-3 pt-2"><span>Deltoide lateral</span></li>
+						<li class="px-3 py-2"><span>Deltoide posterior</span></li>
+					</ul>
+					<li class="px-3 py-2">
+						<span><i class="fas fa-dumbbell mr-2"></i> Brazos</span>
+						<div class="messages"><i class="badge badge-pill badge-secondary">3</i></div>
+					</li>
+					<ul class="submenu list-unstyled">
+						<li class="px-3 pt-2"><span>Biceps</span></li>
+						<li class="px-3 pt-2"><span>Antebrazo</span></li>
+						<li class="px-3 py-2"><span>Triceps</span></li>
+					</ul>
+					<li class="px-3 py-2">
+						<span><i class="fas fa-dumbbell mr-2"></i> Abs</span>
+						<div class="messages"><i class="badge badge-pill badge-secondary">3</i></div>
+					</li>
+					<ul class="submenu list-unstyled">
+						<li class="px-3 pt-2"><span>Abdominales</span></li>
+						<li class="px-3 pt-2"><span>Oblicuos</span></li>
+						<li class="px-3 py-2"><span>Serrato</span></li>
+					</ul>
+					<li class="px-3 py-2">
+						<span><i class="fas fa-dumbbell mr-2"></i> Espalda</span>
+						<div class="messages"><i class="badge badge-pill badge-secondary">4</i></div>
+					</li>
+					<ul class="submenu list-unstyled">
+						<li class="px-3 pt-2"><span>Trapezio</span></li>
+						<li class="px-3 pt-2"><span>Dorsales</span></li>
+						<li class="px-3 pt-2"><span>Redondo</span></li>
+						<li class="px-3 py-2"><span>Lumbar</span></li>
+					</ul>
+					<li class="px-3 py-2">
+						<span><i class="fas fa-dumbbell mr-2"></i> Piernas</span>
+						<div class="messages"><i class="badge badge-pill badge-secondary">6</i></div>
+					</li>
+					<ul class="submenu list-unstyled">
+						<li class="px-3 pt-2"><span>Cuadriceps</span></li>
+						<li class="px-3 pt-2"><span>Isquiotibiales</span></li>
+						<li class="px-3 pt-2"><span>Abductores</span></li>
+						<li class="px-3 pt-2"><span>Gluteo</span></li>
+						<li class="px-3 pt-2"><span>Gemelo</span></li>
+						<li class="px-3 py-2"><span>Tibial</span></li>
+					</ul>
+					<li class="px-3 py-2">
+						<span><i class="fas fa-dumbbell mr-2"></i> Pecho</span>
+						<div class="messages"><i class="badge badge-pill badge-secondary">2</i></div>
+					</li>
+					<ul class="submenu list-unstyled">
+						<li class="px-3 pt-2"><span>Pectoral superior</span></li>
+						<li class="px-3 py-2"><span>Pectoral inferior</span></li>
+					</ul>
+					<li class="px-3 py-2">
+						<span><i class="fas fa-dumbbell mr-2"></i> Cardio</span>
+					</li>
 				</ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-8 col-lg-8">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-8" style="height: 300px; background-color: yellow;">
+						GRUPO MUSCULAR
+					</div>
+					<div class="hidden-sm-down col-md-6 col-lg-4">
+						<img class="rounded w-100" src="file:///media/datos/projects/workout-frontend/img/abs_md.png">
+					</div>
+				</div>
+				<div class="row mt-2">
+					<div class="card card-exercise-list flex-md-row mt-3"> 
+						<div class="card-body d-flex flex-column align-items-start py-2 px-3">
+							<a href="#" class="text-dark"><h4 class="mb-1">Biceps</h4></a>
+							<p class="card-text my-2">
+								Es uno de los músculos preferidos para trabajar en el gimnasio y, la verdad, no tiene mucho sentido. En comparación con músculos como el pectoral, dorsal o isquiosurales, el bíceps tiene un volumen muy pequeño y casi que no vale la pena trabajarlo de forma aislada.
+							</p>
+							<p class="card-text my-2 pl-3">
+								<small><strong>Tips: </strong></small>
+							</p>
+							<p class="card-text pl-3">
+								<small>El bíceps es un músculo importante, pero <strong>con poco peso en el volumen total de nuestra musculatura</strong>. Por eso, si lo que buscas es ganar masa muscular, merece más la pena centrarse en ejercicios complejos como sentadillas, dominadas, peso muerto o press de banca, antes que ponernos como locos a hacer <a href="https://www.vitonica.com/entrenamiento/tres-reglas-de-oro-para-lograr-un-curl-de-biceps-perfecto">curl de bíceps</a>.</small>
+							</p>
+						</div>
+						<img class="card-img-right flex-auto d-none d-lg-block w-100" style="max-width: 150px; max-height: 150px" src="https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg">
+					</div>
+					<div class="card card-exercise-list flex-md-row mt-5"> 
+						<img class="card-img-right flex-auto d-none d-lg-block w-100" style="max-width: 150px; max-height: 150px" src="https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg">
+						<div class="card-body d-flex flex-column align-items-start py-2 px-3">
+							<a href="#" class="text-dark"><h4 class="mb-1">Biceps</h4></a>
+							<p class="card-text my-2">
+								Es uno de los músculos preferidos para trabajar en el gimnasio y, la verdad, no tiene mucho sentido. En comparación con músculos como el pectoral, dorsal o isquiosurales, el bíceps tiene un volumen muy pequeño y casi que no vale la pena trabajarlo de forma aislada.
+							</p>
+							<p class="card-text my-2 pl-3">
+								<small><strong>Tips: </strong></small>
+							</p>
+							<p class="card-text pl-3">
+								<small>El bíceps es un músculo importante, pero <strong>con poco peso en el volumen total de nuestra musculatura</strong>. Por eso, si lo que buscas es ganar masa muscular, merece más la pena centrarse en ejercicios complejos como sentadillas, dominadas, peso muerto o press de banca, antes que ponernos como locos a hacer <a href="https://www.vitonica.com/entrenamiento/tres-reglas-de-oro-para-lograr-un-curl-de-biceps-perfecto">curl de bíceps</a>.</small>
+							</p>
+						</div>
+					</div>
+					<div class="card card-exercise-list flex-md-row mt-3"> 
+						<div class="card-body d-flex flex-column align-items-start py-2 px-3">
+							<a href="#" class="text-dark"><h4 class="mb-1">Biceps</h4></a>
+							<p class="card-text my-2">
+								Es uno de los músculos preferidos para trabajar en el gimnasio y, la verdad, no tiene mucho sentido. En comparación con músculos como el pectoral, dorsal o isquiosurales, el bíceps tiene un volumen muy pequeño y casi que no vale la pena trabajarlo de forma aislada.
+							</p>
+							<p class="card-text my-2 pl-3">
+								<small><strong>Tips: </strong></small>
+							</p>
+							<p class="card-text pl-3">
+								<small>El bíceps es un músculo importante, pero <strong>con poco peso en el volumen total de nuestra musculatura</strong>. Por eso, si lo que buscas es ganar masa muscular, merece más la pena centrarse en ejercicios complejos como sentadillas, dominadas, peso muerto o press de banca, antes que ponernos como locos a hacer <a href="https://www.vitonica.com/entrenamiento/tres-reglas-de-oro-para-lograr-un-curl-de-biceps-perfecto">curl de bíceps</a>.</small>
+							</p>
+						</div>
+						<img class="card-img-right flex-auto d-none d-lg-block w-100" style="max-width: 150px; max-height: 150px" src="https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6">
+						EJERCICIOS 1						
+					</div>
+					<div class="col-12 col-md-6">
+						EJERCICIOS 2
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -59,18 +159,20 @@
 		var $submenu = $('.submenu');
 		var $mainmenu = $('.mainmenu');
 		$submenu.hide();
-		$submenu.first().delay(400).slideDown(700);
-		$submenu.on('click','li', function() {
-			$submenu.siblings().find('li').removeClass('chosen');
-			$(this).addClass('chosen');
-		});
-		$mainmenu.on('click', 'li', function() {
-			$(this).next('.submenu').slideToggle().siblings('.submenu').slideUp();
-		});
-		$mainmenu.children('li:last-child').on('click', function() {
-			$mainmenu.fadeOut().delay(500).fadeIn();
-		});
-	});
+		$submenu.first().slideDown(700);
+
+// Apertura del menu
+$submenu.on('click','li', function() {
+	$submenu.siblings().find('li').removeClass('chosen');
+	$(this).addClass('chosen');
+});
+
+// Cierre del menu anteriormente abierto
+$mainmenu.on('click', 'li', function() {
+	$(this).next('.submenu').slideToggle().siblings('.submenu').slideUp();
+});
+
+});
 </script>
 
 </html>
