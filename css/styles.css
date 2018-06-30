@@ -1,0 +1,19 @@
+/* MDB Dropdowns */
+.select-wrapper span.caret {
+	top: 0.7rem;
+}
+
+.select-wrapper input.select-dropdown {
+	height: 2.2rem;
+}
+
+/* Modal form add exercise to routine*/
+.sets-form input {
+	font-size: 14px !important;
+	color: white !important;
+}
+
+
+.sets-form label {
+	font-size: .8rem;
+}

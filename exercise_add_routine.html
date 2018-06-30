@@ -1,109 +1,172 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Other css-->
-	<link rel="stylesheet" href="workout_manager.css">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<!-- Titulo web -->
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Bootstrap, Material Design, Fontawesome & Google Fonts-->
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mdb_pro.css">
+	<!-- Own CSS styles -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Title web -->
 	<title>Workout Planner</title>
 </head>
+
 <body>  
+
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-8">
-				<!-- Ejercicio seleccionado -->
-				<div class="card mt-3"> 
-					<h5 class="card-header"><i class="fas fa-dumbbell"></i> Ejercicio</h5>
-					<div class="card-body">
-						<div class="row">
-							<div class="col-8">
-								<h3 class="mb-2"><a href="#" class="text-dark"> Curl de Biceps	</a></h3>
-								<p class="card-text mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur
-									aperiam reiciendis animi explicabo blanditiis laborum sequi.
+		
+		<div class="row mt-4">
+			<div class="col-xs-12 col-sm-12 col-lg-8">
+
+				<!-- Card -->
+				<div class="card d-flex flex-column">
+
+					<!-- First row: title, image, description -->
+					<div class="d-flex flex-row">
+						<div class="text-white rgba-black-strong py-3 px-3">
+							<div class="d-flex flex-column">
+								<p class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Biceps</small></p>
+								<h6 class="card-title mb-2"><strong>Curl de Biceps</strong></h6>
+								<p class="card-text">
+									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi
+										explicabo blanditiis laborum sequi.
+									</small>
 								</p>
-								<div class="px-4">
-									<span class="badge badge-primary">Musculos primarios</span>
-									<small><strong> <a href="#">Biceps</a></strong></small>
+							</div>
+						</div>
+						<div class="card-image d-none d-md-block col-4" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover;">
+						</div>
+					</div>	<!-- First row -->
+
+					<!-- Second row: set configuration-->
+					<div class="rgba-black-strong py-3 px-3">
+						<form class="sets-form">
+							<div class="form-row d-flex flex-row justify-content-around">
+								<div class="col-12 col-sm-4">
+									<div class="md-form headers-form-row">										
+										<input id="sets_n" type="number" class="form-control form-control-sm pb-1" value="3">
+										<label>Numero de series</label>
+									</div>
+									<div class="md-form headers-form-row">
+										<select class="mdb-select" value="Reps">
+											<option value="1">Reps.</option>
+											<option value="2">Minutes</option>
+											<option value="3">Seconds</option>
+											<option value="4">Kms.</option>
+											<option value="5">AMRAP</option>
+											<option value="6">Fallo</option>
+										</select>
+										<label>Tipo de repeticion</label>
+									</div>
+									<div class="md-form headers-form-row">
+										<select class="mdb-select" value="Kgs.">
+											<option value="1">Kgs.</option>
+											<option value="2">Peso propio</option>
+										</select>
+										<label>Tipo de peso</label>
+									</div>
 								</div>
-								<div class="px-4">
-									<span class="badge badge-secondary">Musculos secundarios</span>
-									<small><strong> <a href="#">Antebrazo</a>, <a href="#">Hombro</a></strong></small>
+								<div class="col-12 col-sm-6">
+									<!-- Form row -->
+									<div class="form-row headers-form-row">
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<label for="set1_r">Repeticiones</label>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<label for="set1_w">Peso</label>
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="form-row mt-4">
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set1_r" type="number" class="form-control form-control-sm pb-1" value="12">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set1_w" type="number" class="form-control form-control-sm pb-1" value="18">
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="form-row">
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set2_r" type="number" class="form-control form-control-sm pb-1" value="12">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set2_w" type="number" class="form-control form-control-sm pb-1" value="18">
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="form-row">
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set3_r" type="number" class="form-control form-control-sm pb-1" value="12">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set3_w" type="number" class="form-control form-control-sm pb-1" value="18">
+											</div>
+										</div>
+									</div> <!-- Form row -->
 								</div>
 							</div>
-							<div class="col-4">
-								<img class="img-fluid rounded d-none d-lg-block w-100" src="https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg"">
-							</div>
+						</form>
+					</div>	<!-- Second row -->
+
+					<!-- Third row: buttons-->
+					<div class="rgba-black-strong py-3">
+						<div class="col-12 d-flex flex-row justify-content-between">
+							<a class="btn btn-sm btn-pink m-0 ml-0" data-toggle="tooltip" data-placement="right" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
+							<a class="btn btn-sm btn-pink m-0 ml-2"><i class="fas fa-times"></i> <span class="ml-2">Cerrar</span></a>
 						</div>
-					</div>
-				</div>
-				<!-- Sets -->
-				<div class="card mt-2"> 
-					<h5 class="card-header"><i class="fas fa-dumbbell"></i> Sets a ejecutar</h5>
-					<div id="card_sets" class="card-body">
-						<!-- Numero de sets -->
-						<div class="form-row">
-							<label for="sets" class="col-1 col-form-label-sm mb-1">Series:</label>
-							<div class="col-2">
-								<input id="num_sets" type="number" class="form-control form-control-sm" max=20 min=1 value="1">
-							</div>
-						</div>
-						<!-- Sets -->
-						<div class="form-row">
-							<div class="form-group col-md-2 offset-1 mb-1">
-								<input id="reps_1" type="number" class="form-control form-control-sm" max=9999 min=1 value="12">
-							</div>
-							<div class="form-group col-md-3 mb-1">
-								<select id="repsUN_1" class="form-control form-control-sm">
-									<option value="1">Reps.</option>
-									<option value="2">Minutes</option>
-									<option value="3">Seconds</option>
-									<option value="4">Kms.</option>
-									<option value="5">AMRAP</option>
-									<option value="6">Fallo</option>
-								</select>
-							</div>
-							<div class="form-group col-md-2 mb-1">
-								<input type="carga_1" class="form-control form-control-sm" id="sets" max=9999 min=1 value="20">
-							</div>
-							<div class="form-group col-md-3 mb-1">
-								<select id="cargaUN_1" class="form-control form-control-sm">
-									<option value="1">Kgs.</option>
-									<option value="2">Peso propio</option>
-								</select>
-							</div>
-						</div>
-					</div>
-					<!-- Botones -->
-					<div class="card-footer">
-						<button type="button" class="btn btn-sm btn-primary">
-							<span class="fas fa-plus" aria-hidden="true"></span> Añadir
-						</button>
-						<button type="button" class="btn btn-sm btn-primary">
-							<span class="fas fa-minus" aria-hidden="true"></span> Descartar
-						</button>
-					</div>
-				</div>
+					</div>	<!-- Third row -->
+
+				</div> <!-- Card -->
+
 			</div>
+
 		</div>
 	</div>
-</body>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></body>
-<script>
-	$(document).ready(function () {
-		$('#num_sets').on('input', function() { 
-			card_sets = $('#card_sets');
-			var lines 	= "	<div class=\"form-row\">";
-			    lines  += "		<div class=\"form-group col-md-2 offset-1 mb-1\">";
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS, then MDS -->
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mdb.min.js"></script>
+	<script src="js/mdb.min_dashboard_pro.js"></script>
+	<script src="js/fontawesome.js"></script>
+
+	<script>
+		// Material Select Initialization
+		$(document).ready(function() {
+			$('.mdb-select').material_select();
+		});
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
+		/*
+		$(document).ready(function () {
+			$('#num_sets').on('input', function() { 
+				card_sets = $('#card_sets');
+				var lines 	= "	<div class=\"form-row\">";
+				lines  += "		<div class=\"form-group col-md-2 offset-1 mb-1\">";
 				lines  += "			<input id=\"reps_1\" type=\"number\" class=\"form-control form-control-sm\" max=9999 min=1 value=\"12\">";
 				lines  += "		</div>";
 				lines  += "		<div class=\"form-group col-md-3 mb-1\">";
@@ -126,8 +189,12 @@
 				lines  += "			</select>";
 				lines  += "		</div>";
 				lines  += "</div>";
-			card_sets.append(lines);
-		})
-	});
-</script>
+				card_sets.append(lines);
+			})
+		});*/
+	</script>
+
+</body>
+
+
 </html>
