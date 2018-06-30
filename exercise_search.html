@@ -1,130 +1,102 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Other css-->
-    <link rel="stylesheet" href="workout_manager.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <!-- Titulo web -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap, Material Design, Fontawesome & Google Fonts-->
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb_pro.css">
+    <!-- Own CSS styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Title web -->
     <title>Workout Planner</title>
 </head>
+
 <body>  
     <div class="container">
         <div class="row mt-4">
-            <div class="col-md-3" id="filtro_ejercicios">
-                <!-- Titulo -->
-                <div class="row">
-                    <div class="col-12">
-                        <h5>Filtrar ejercicios</h5>
-                    </div>
-                </div>
+            <div class="col-12 col-sm-6 col-lg-4" id="filtro_ejercicios">
                 <!-- Buscador -->
                 <div class="row">
                     <div class="col-12">
-                        <div class="input-group form-group-sm">
-                            <input type="text" class="form-control form-control-sm" placeholder="Search">
-                            <div class="input-group-btn">
-                                <button class="btn btn-sm btn-primary" style="height: 100%;"><i class="fa fa-search"></i></button>
-                            </div>
-                        </div>
+                        <form class="form-inline md-form mr-auto mb-4 d-flex justify-content-between">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn aqua-gradient btn-rounded btn-sm my-0">Buscar</button>
+                        </form>
                     </div>
                 </div>
                 <!-- Criterios de filtrado rapido -->
                 <div class="row">
-                    <div class="panel-group col-12 mt-2" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel px-3 my-2">
-                            <div class="panel-heading" role="tab" id="heading1">
-                                <div class="row">
-                                    <div class="col-10">
-                                        <h4 class="panel-title mb-0">Ejercicios favoritos</h4>
-                                    </div>
-                                    <div class="col-2 text-right">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">
-                                            <i class="far fa-plus-square" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false" style="height: 0px;">
-                                <div class="panel-body px-3 my-2">
-                                    <div class="collapse-content">
-                                        <label>
-                                            <input id="exercise_checkbox0" name="exercise_checkbox[]" type="checkbox" class="filterCheck exercise" data-id="0" value="0"> My Favourite Exercise
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel px-3 my-2">
-                            <div class="panel-heading" role="tab" id="heading2">
-                                <div class="row">
-                                    <div class="col-10">
-                                        <h4 class="panel-title mb-0">Grupo Muscular</h4>
-                                    </div>
-                                    <div class="col-2 text-right">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2" class="collapsed">
-                                            <i class="far fa-plus-square" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>                                    
-                            </div>
-                            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2" aria-expanded="false" style="height: 0px;">
-                                <div class="panel-body px-3 my-2">
-                                    <div class="collapse-content">
-                                        <label><input id="muscle_checkbox10" name="muscle_checkbox[]" class="filterCheck muscle" type="checkbox" data-id="10" value="10"> Abs</label><br>
-                                        <label><input id="muscle_checkbox20" name="muscle_checkbox[]" class="filterCheck muscle" type="checkbox" data-id="20" value="20"> Back</label><br>
-                                        <label><input id="muscle_checkbox70" name="muscle_checkbox[]" class="filterCheck muscle" type="checkbox" data-id="70" value="70"> Biceps</label><br>
-                                        <label><input id="muscle_checkbox60" name="muscle_checkbox[]" class="filterCheck muscle" type="checkbox" data-id="60" value="60"> Calves</label><br>
-                                        <label><input id="muscle_checkbox30" name="muscle_checkbox[]" class="filterCheck muscle" type="checkbox" data-id="30" value="30"> Chest</label><br>
-                                        <label><input id="muscle_checkbox90" name="muscle_checkbox[]" class="filterCheck muscle" type="checkbox" data-id="90" value="90"> Forearms</label><br>
-                                        <label><input id="muscle_checkbox40" name="muscle_checkbox[]" class="filterCheck muscle" type="checkbox" data-id="40" value="40"> Shoulders</label><br>
-                                        <label><input id="muscle_checkbox50" name="muscle_checkbox[]" class="filterCheck muscle" type="checkbox" data-id="50" value="50"> Thighs</label><br>
-                                        <label><input id="muscle_checkbox80" name="muscle_checkbox[]" class="filterCheck muscle" type="checkbox" data-id="80" value="80"> Triceps</label><br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel px-3 my-2">
-                            <div class="panel-heading" role="tab" id="heading3">
-                                <div class="row">
-                                    <div class="col-10">
-                                        <h4 class="panel-title mb-0">Tipo de ejercicio</h4>
-                                    </div>
-                                    <div class="col-2 text-right">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3" class="collapsed">
-                                            <i class="far fa-plus-square" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3" aria-expanded="false" style="height: 0px;">
-                                <div class="panel-body px-3 my-2">
-                                    <div class="collapse-content">
-                                        <label><input id="exercise_checkbox1" name="exercise_checkbox[]" type="checkbox" class="filterCheck exercise" data-id="1" value="1"> Cardio</label><br>
-                                        <label><input id="exercise_checkbox2" name="exercise_checkbox[]" type="checkbox" class="filterCheck exercise" data-id="2" value="2"> Estiramientos</label><br>
-                                        <label><input id="exercise_checkbox3" name="exercise_checkbox[]" type="checkbox" class="filterCheck exercise" data-id="3" value="3"> Pliometrico</label><br>
-                                        <label><input id="exercise_checkbox4" name="exercise_checkbox[]" type="checkbox" class="filterCheck exercise" data-id="4" value="4"> Calentamiento</label><br>
-                                        <label><input id="exercise_checkbox5" name="exercise_checkbox[]" type="checkbox" class="filterCheck exercise" data-id="4" value="5"> Principales</label><br>
-                                        <label><input id="exercise_checkbox6" name="exercise_checkbox[]" type="checkbox" class="filterCheck exercise" data-id="6" value="6"> Resitencia</label>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-12">
+                        <select class="mdb-select colorful-select dropdown-primary" multiple searchable="Search here..">
+                            <option value="" disabled selected>Filtro por grupo muscular</option>
+                            <option value="1">Hombros</option>
+                            <option value="2">Pecho</option>
+                            <option value="4">Espalda</option>
+                            <option value="5">Abdominales</option>
+                            <option value="6">Brazos</option>
+                            <option value="7">Piernas</option>
+                            <option value="8">Cardio</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <select class="mdb-select colorful-select dropdown-primary" multiple searchable="Search here..">
+                            <option value="" disabled selected>Filtro por musculo</option>
+                            <option value="1">Abdominales</option>
+                            <option value="2">Oblicuos</option>
+                            <option value="4">Serratos</option>
+                            <option value="5">Biceps</option>
+                            <option value="6">Triceps</option>
+                            <option value="7">Antebrazo</option>
+                            <option value="8">Deltoide posterior</option>
+                            <option value="9">Deltoide anterior</option>
+                            <option value="10">Deltoide lateral</option>
+                            <option value="11">Pectoral superior</option>
+                            <option value="12">Pectoral inferior</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <select class="mdb-select colorful-select dropdown-primary" multiple searchable="Search here..">
+                            <option value="" disabled selected>Filtro tipo de ejercicio</option>
+                            <option value="1">Cardio</option>
+                            <option value="2">Estiramientos</option>
+                            <option value="3">Pliometrico</option>
+                            <option value="3">Calentamiento</option>
+                            <option value="3">Musculacion</option>
+                            <option value="2">Resistencia</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check pl-0 py-2">
+                            <input type="checkbox" class="form-check-input" id="checkbox_fav">
+                            <label class="form-check-label" for="checkbox_fav">Ejercicios favoritos</label>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</body> 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></body>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then MDS -->
+    <script src="js/jquery-3.3.1.js"></script>  
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/mdb.min_dashboard_pro.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script>
+        // Material Select Initialization
+        $(document).ready(function() {
+         $('.mdb-select').material_select();
+     });
+ </script>
+
+</body>
+
+
 </html>
