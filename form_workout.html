@@ -16,18 +16,18 @@
 	<!-- Title web -->
 	<title>Workout Planner</title>
 	<style>
-		#caja-ejercicios {
-			padding: 10px 10px 10px 10px;
-			border: 5px solid;
-			border-style: dashed;
-		}
+	#caja-ejercicios {
+		padding: 10px 10px 10px 10px;
+		border: 5px solid;
+		border-style: dashed;
+	}
 
-		.caja-ejercicios-dragover {
-			color: #EC407A;
-			border-color: #EC407A;
-		}
+	.caja-ejercicios-dragover {
+		color: #EC407A;
+		border-color: #EC407A;
+	}
 
-	</style>
+</style>
 </head>
 
 <body>  
@@ -148,9 +148,9 @@
 					</div>
 				</div>
 			</div>			
-			<div class="col-8">
+			<div class="col-12 col-lg-8">
 				<!-- Card -->
-				<div id="result_1" class="card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
+				<div id="ejer_search_1" class="ejer_search card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
 					<div class="text-white rgba-black-strong py-3 px-3">
 						<div class="d-flex flex-column">
 							<div class="d-flex flex-column">
@@ -159,7 +159,7 @@
 										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Biceps</small></p>
 										<h6 class="card-title mb-2"><strong>Curl de Biceps</strong></h6>
 									</div>
-									<a class="d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
+									<button class="ejer_search_btn d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></button>
 								</div>
 								<p class="card-text">
 									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi explicabo blanditiis.</small>
@@ -171,7 +171,7 @@
 					</div>
 				</div> <!-- Card -->
 				<!-- Card -->
-				<div id="result_2" class="card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
+				<div id="ejer_search_2" class="ejer_search card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
 					<div class="card-image d-none d-md-block col-3" style="background-image: url(http://www.westhavencrossfit.com/a/wp-content/uploads/2015/07/Squat1.jpg); background-size: cover; background-position: center;">
 					</div>
 					<div class="text-white rgba-black-strong py-3 px-3">
@@ -182,7 +182,7 @@
 										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Pierna</small></p>
 										<h6 class="card-title mb-2"><strong>Sentadilla</strong></h6>
 									</div>
-									<a class="d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
+									<button class="ejer_search_btn d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></button>
 								</div>
 								<p class="card-text">
 									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi explicabo blanditiis.</small>
@@ -192,7 +192,7 @@
 					</div>
 				</div> <!-- Card -->
 				<!-- Card -->
-				<div id="result_3" class="card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
+				<div id="ejer_search_3" class="ejer_search card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
 					<div class="text-white rgba-black-strong py-3 px-3">
 						<div class="d-flex flex-column">
 							<div class="d-flex flex-column">
@@ -201,7 +201,7 @@
 										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Pierna</small></p>
 										<h6 class="card-title mb-2"><strong>Peso muerto</strong></h6>
 									</div>
-									<a class="d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
+									<button class="ejer_search_btn d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></button>
 								</div>
 								<p class="card-text">
 									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi explicabo blanditiis.</small>
@@ -213,7 +213,7 @@
 					</div>
 				</div> <!-- Card -->
 				<!-- Card -->
-				<div id="result_4" class="card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
+				<div id="ejer_search_4" class="ejer_search card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
 					<div class="card-image d-none d-md-block col-3" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXLRtyCwGIpc1Nr6dJgPAIYLfsZkQTT5ckuA-1JfYVOxjyqUBr); background-size: cover; background-position: center;">
 					</div>
 					<div class="text-white rgba-black-strong py-3 px-3">
@@ -224,7 +224,7 @@
 										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Espalda</small></p>
 										<h6 class="card-title mb-2"><strong>Dominadas</strong></h6>
 									</div>
-									<a class="d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
+									<button class="ejer_search_btn d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></button>
 								</div>
 								<p class="card-text">
 									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi explicabo blanditiis.</small>
@@ -237,8 +237,8 @@
 		</div>
 	</div> <!--Buscador ejercicios -->
 
-	<!-- Card -->
-	<div id="exer_card_clone" class="exer_card col-xs-12 col-sm-6 col-md-4 col-lg-3 p-1 px-0 d-none">
+	<!-- Card dummy -->
+	<div id="exer_card_clone" class="exer_card col-xs-12 col-sm-6 col-md-4 col-lg-3 p-1 px-0 d-none" draggable="true" ondragstart="drag(event)">
 		<div class="card card-image" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg);">
 			<div class="text-white text-center d-flex flex-column rgba-black-strong p-3">
 				<div class="d-flex flex-column">
@@ -249,12 +249,149 @@
 					<p class="mt-0 mb-0"><small>DE ESTE EJERCICIO</small></p>
 				</div>
 				<div class="d-flex flex-row justify-content-between mt-2">							
-					<a class="btn btn-sm btn-pink"><i class="fas fa-pen"></i></a>
-					<a class="btn btn-sm btn-pink"><i class="fa fa-trash-alt"></i></a>
+					<a class="exer_card_edit btn btn-sm btn-pink" data-toggle="modal" data-toggle="modal" data-target="#modal_ejer"><i class="fas fa-pen"></i></a>
+					<a class="exer_card_trash btn btn-sm btn-pink"><i class="fa fa-trash-alt"></i></a>
 				</div>
 			</div>
 		</div>
-	</div> <!-- Card -->
+	</div> <!-- Card dummy -->
+
+	<!-- Modal ejercicio -->
+	<div id="modal_ejer" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-notify modal-info" role="document">
+			<!--Content-->
+			<div class="modal-content">
+				<!-- Card -->
+				<div class="card d-flex flex-column">
+					<!-- First row: title, image, description -->
+					<div class="d-flex flex-row">
+						<div class="text-white rgba-black-strong py-3 px-3">
+							<div class="d-flex flex-column">
+								<p id="modal_ej_muscle" class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Biceps</small></p>
+								<h6 id="modal_ej_ejerci" class="card-title mb-2"><strong>Curl de Biceps</strong></h6>
+								<p id="modal_ej_descri" class="card-text">
+									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi
+										explicabo blanditiis laborum sequi.
+									</small>
+								</p>
+							</div>
+						</div>
+						<div id="modal_ej_imagen" class="card-image d-none d-md-block col-4" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover; background-position: center;">
+						</div>
+					</div>	<!-- First row -->
+					<!-- Second row: set configuration-->
+					<div class="rgba-black-strong py-3 px-3">
+						<form class="sets-form">
+							<div class="form-row d-flex flex-row justify-content-around">
+								<div class="col-12 col-sm-4">
+									<div class="md-form headers-form-row">										
+										<input id="sets_n" type="number" class="form-control form-control-sm pb-1" value="4">
+										<label>Numero de series</label>
+									</div>
+									<div class="md-form headers-form-row">
+										<select class="mdb-select" value="Reps">
+											<option value="1">Reps.</option>
+											<option value="2">Minutes</option>
+											<option value="3">Seconds</option>
+											<option value="4">Kms.</option>
+											<option value="5">AMRAP</option>
+											<option value="6">Fallo</option>
+										</select>
+										<label>Tipo de repeticion</label>
+									</div>
+									<div class="md-form headers-form-row">
+										<select class="mdb-select" value="Kgs.">
+											<option value="1">Kgs.</option>
+											<option value="2">Peso propio</option>
+										</select>
+										<label>Tipo de peso</label>
+									</div>
+								</div>
+								<div class="col-12 col-sm-6">
+									<!-- Form row -->
+									<div class="form-row headers-form-row">
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<label for="set1_r">Repeticiones</label>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<label for="set1_w">Peso</label>
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="form-row mt-4">
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set1_r" type="number" class="form-control form-control-sm pb-1" value="12">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set1_w" type="number" class="form-control form-control-sm pb-1" value="18">
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="form-row">
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set2_r" type="number" class="form-control form-control-sm pb-1" value="12">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set2_w" type="number" class="form-control form-control-sm pb-1" value="18">
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="form-row">
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set3_r" type="number" class="form-control form-control-sm pb-1" value="12">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set3_w" type="number" class="form-control form-control-sm pb-1" value="18">
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="form-row">
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set4_r" type="number" class="form-control form-control-sm pb-1" value="12">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="md-form form-group m-0">
+												<input id="set4_w" type="number" class="form-control form-control-sm pb-1" value="18">
+											</div>
+										</div>
+									</div> <!-- Form row -->
+								</div>
+							</div>
+						</form>
+					</div>	<!-- Second row -->
+					<!-- Third row: buttons-->
+					<div class="rgba-black-strong py-3">
+						<div class="col-12 d-flex flex-row justify-content-between">
+							<a class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal" onclick="aceptar_modal()"><i class="fas fa-check"></i><span class="ml-2">Aceptar</span></a>
+							<a class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-times"></i> <span class="ml-2">Cerrar</span></a>
+						</div>
+					</div>	<!-- Third row -->
+				</div> <!-- Card -->
+			</div>
+			<!--/.Content-->
+		</div>
+	</div>
+	<!-- Central Modal Medium Info-->
+	
+	<br><br><br><br>
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS, then MDS -->
 	<script src="js/jquery-3.3.1.js"></script>  
@@ -264,6 +401,8 @@
 	<script src="js/mdb.min_dashboard_pro.js"></script>
 	<script src="js/fontawesome.js"></script>
 	<script src="js/workout.js"></script>
+	<script src="js/DragDropTouch.js"></script>
+
 </body>
 
 

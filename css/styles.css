@@ -10,6 +10,13 @@
 /* MDB Search */
 
 
+/* MDB Modals */
+@media (min-width: 576px) {
+	.modal-dialog {
+	    max-width: 640px;
+	}
+}
+
 /* Modal form add exercise to routine*/
 .sets-form input {
 	font-size: 14px !important;

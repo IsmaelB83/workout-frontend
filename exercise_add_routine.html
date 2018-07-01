@@ -20,30 +20,36 @@
 <body>  
 
 	<div class="container">
-		
-		<div class="row mt-4">
-			<div class="col-xs-12 col-sm-12 col-lg-8">
-
+		<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn-pink waves-effect waves-light" data-toggle="modal" data-target="#centralModalInfo">Modal Ejercicio Workout</button>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Central Modal Medium Info -->
+	<div id="modal_ej" class="modal fade" id="centralModalInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-notify modal-info" role="document">
+			<!--Content-->
+			<div class="modal-content">
 				<!-- Card -->
 				<div class="card d-flex flex-column">
-
 					<!-- First row: title, image, description -->
 					<div class="d-flex flex-row">
 						<div class="text-white rgba-black-strong py-3 px-3">
 							<div class="d-flex flex-column">
-								<p class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Biceps</small></p>
-								<h6 class="card-title mb-2"><strong>Curl de Biceps</strong></h6>
-								<p class="card-text">
+								<p id="modal_ej_musculo" class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Biceps</small></p>
+								<h6 id="modal_ej_nombre" class="card-title mb-2"><strong>Curl de Biceps</strong></h6>
+								<p id="modal_ej_descr" class="card-text">
 									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi
 										explicabo blanditiis laborum sequi.
 									</small>
 								</p>
 							</div>
 						</div>
-						<div class="card-image d-none d-md-block col-4" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover;">
+						<div id="modal_ej_img" class="card-image d-none d-md-block col-4" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover; background-position: center;">
 						</div>
 					</div>	<!-- First row -->
-
 					<!-- Second row: set configuration-->
 					<div class="rgba-black-strong py-3 px-3">
 						<form class="sets-form">
@@ -142,7 +148,6 @@
 							</div>
 						</form>
 					</div>	<!-- Second row -->
-
 					<!-- Third row: buttons-->
 					<div class="rgba-black-strong py-3">
 						<div class="col-12 d-flex flex-row justify-content-between">
@@ -150,16 +155,15 @@
 								<a class="btn btn-sm btn-pink m-0 ml-0" data-toggle="tooltip" data-placement="right" title="Ver detalle ejercicio"><i class="far fa-eye"></i></a>
 								<a class="btn btn-sm btn-pink m-0 ml-2" data-toggle="tooltip" data-placement="right" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
 							</div>
-							<a class="btn btn-sm btn-pink m-0 ml-2"><i class="fas fa-times"></i> <span class="ml-2">Cerrar</span></a>
+							<a class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-times"></i> <span class="ml-2">Cerrar</span></a>
 						</div>
 					</div>	<!-- Third row -->
-
 				</div> <!-- Card -->
-
 			</div>
-
+			<!--/.Content-->
 		</div>
 	</div>
+	<!-- Central Modal Medium Info-->
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS, then MDS -->
 	<script src="js/jquery-3.3.1.js"></script>
@@ -168,15 +172,9 @@
 	<script src="js/mdb.min.js"></script>
 	<script src="js/mdb.min_dashboard_pro.js"></script>
 	<script src="js/fontawesome.js"></script>
+	<script src="js/workout.js"></script>
 
 	<script>
-		// Material Select Initialization
-		$(document).ready(function() {
-			$('.mdb-select').material_select();
-		});
-		$(function () {
-		  $('[data-toggle="tooltip"]').tooltip()
-		})
 		/*
 		$(document).ready(function () {
 			$('#num_sets').on('input', function() { 
