@@ -15,6 +15,19 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<!-- Title web -->
 	<title>Workout Planner</title>
+	<style>
+		#caja-ejercicios {
+			padding: 10px 10px 10px 10px;
+			border: 5px solid;
+			border-style: dashed;
+		}
+
+		.caja-ejercicios-dragover {
+			color: #EC407A;
+			border-color: #EC407A;
+		}
+
+	</style>
 </head>
 
 <body>  
@@ -60,14 +73,12 @@
 		<div class="row mb-5">
 			<div class="col-md-12">
 				<div class="card card-image" style="background-image: url(img/background_workout.jpg);">
-					<div class="text-white text-center rgba-stylish-strong py-5 px-4 h-100">
-						<div class="py-5">
-							<!--Content-->
-							<h6 class="orange-text font-bold white-text"><i class="fa fa-camera-retro mr-2"></i>Ejercicios</h6>
-							<h2 class="card-title pt-3 mb-5 font-bold">No hay ejercicios en su rutina</h2>
-							<p class="px-5 pb-4">Para incluir ejercicios en su rutina de entrenamiento, utilice el buscador ubicado en la parte inferior de esta pagina.</p>
-							<a href="#busqueda" class="btn btn-pink"><i class="fa fa-clone left mr-2"></i> Buscador de ejercicios</a>
-							<!--Content-->
+					<div class="text-white text-center rgba-stylish-strong p-4 h-100">
+						<div id="caja-ejercicios" class="d-flex flex-row flex-wrap text-center" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragleave(event)">
+							<div id="caja-instrucciones">
+								<h2 class="card-title p-5 font-bold">No hay ejercicios en su rutina</h2>
+								<p class="px-5 pb-5">Utilice el buscador ubicado en la parte inferior de esta pagina. Una vez encuentre el ejercicio deseado, puede arrastrarlo (CTRL para copiar) aqui para añadirlo a la rutina, o hacerlo mediante el boton "+" asociado a cada ejercicio.</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -139,7 +150,7 @@
 			</div>			
 			<div class="col-8">
 				<!-- Card -->
-				<div class="card d-flex flex-row mt-2">
+				<div id="result_1" class="card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
 					<div class="text-white rgba-black-strong py-3 px-3">
 						<div class="d-flex flex-column">
 							<div class="d-flex flex-column">
@@ -160,7 +171,7 @@
 					</div>
 				</div> <!-- Card -->
 				<!-- Card -->
-				<div class="card d-flex flex-row mt-2">
+				<div id="result_2" class="card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
 					<div class="card-image d-none d-md-block col-3" style="background-image: url(http://www.westhavencrossfit.com/a/wp-content/uploads/2015/07/Squat1.jpg); background-size: cover; background-position: center;">
 					</div>
 					<div class="text-white rgba-black-strong py-3 px-3">
@@ -181,7 +192,7 @@
 					</div>
 				</div> <!-- Card -->
 				<!-- Card -->
-				<div class="card d-flex flex-row mt-2">
+				<div id="result_3" class="card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
 					<div class="text-white rgba-black-strong py-3 px-3">
 						<div class="d-flex flex-column">
 							<div class="d-flex flex-column">
@@ -202,7 +213,7 @@
 					</div>
 				</div> <!-- Card -->
 				<!-- Card -->
-				<div class="card d-flex flex-row mt-2">
+				<div id="result_4" class="card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
 					<div class="card-image d-none d-md-block col-3" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXLRtyCwGIpc1Nr6dJgPAIYLfsZkQTT5ckuA-1JfYVOxjyqUBr); background-size: cover; background-position: center;">
 					</div>
 					<div class="text-white rgba-black-strong py-3 px-3">
@@ -233,13 +244,7 @@
 	<script src="js/mdb.min.js"></script>
 	<script src="js/mdb.min_dashboard_pro.js"></script>
 	<script src="js/fontawesome.js"></script>
-	<script>
-        // Material Select Initialization
-        $(document).ready(function() {
-        	$('.mdb-select').material_select();
-        });
-    </script>
-
+	<script src="js/workout.js"></script>
 </body>
 
 
