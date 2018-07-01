@@ -73,11 +73,11 @@
 		<div class="row mb-5">
 			<div class="col-md-12">
 				<div class="card card-image" style="background-image: url(img/background_workout.jpg);">
-					<div class="text-white text-center rgba-stylish-strong p-4 h-100">
+					<div class="text-white text-center rgba-stylish-strong p-2 h-100">
 						<div id="caja-ejercicios" class="d-flex flex-row flex-wrap text-center" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragleave(event)">
 							<div id="caja-instrucciones">
 								<h2 class="card-title p-5 font-bold">No hay ejercicios en su rutina</h2>
-								<p class="px-5 pb-5">Utilice el buscador ubicado en la parte inferior de esta pagina. Una vez encuentre el ejercicio deseado, puede arrastrarlo (CTRL para copiar) aqui para añadirlo a la rutina, o hacerlo mediante el boton "+" asociado a cada ejercicio.</p>
+								<p class="px-5 pb-5">Utilice el buscador ubicado en la parte inferior de esta pagina. Una vez encuentre el ejercicio deseado, arrastrelo aqui para añadirlo a la rutina, o utilice el boton "+" asociado a cada ejercicio.</p>
 							</div>
 						</div>
 					</div>
@@ -156,7 +156,7 @@
 							<div class="d-flex flex-column">
 								<div class="d-flex flex-row justify-content-between align-items-start">
 									<div class="d-flex flex-column">
-										<p class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Biceps</small></p>
+										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Biceps</small></p>
 										<h6 class="card-title mb-2"><strong>Curl de Biceps</strong></h6>
 									</div>
 									<a class="d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
@@ -179,7 +179,7 @@
 							<div class="d-flex flex-column">
 								<div class="d-flex flex-row justify-content-between align-items-start">
 									<div class="d-flex flex-column">
-										<p class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Pierna</small></p>
+										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Pierna</small></p>
 										<h6 class="card-title mb-2"><strong>Sentadilla</strong></h6>
 									</div>
 									<a class="d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
@@ -198,7 +198,7 @@
 							<div class="d-flex flex-column">
 								<div class="d-flex flex-row justify-content-between align-items-start">
 									<div class="d-flex flex-column">
-										<p class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Pierna</small></p>
+										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Pierna</small></p>
 										<h6 class="card-title mb-2"><strong>Peso muerto</strong></h6>
 									</div>
 									<a class="d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
@@ -221,7 +221,7 @@
 							<div class="d-flex flex-column">
 								<div class="d-flex flex-row justify-content-between align-items-start">
 									<div class="d-flex flex-column">
-										<p class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Espalda</small></p>
+										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Espalda</small></p>
 										<h6 class="card-title mb-2"><strong>Dominadas</strong></h6>
 									</div>
 									<a class="d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></a>
@@ -236,6 +236,25 @@
 			</div>
 		</div>
 	</div> <!--Buscador ejercicios -->
+
+	<!-- Card -->
+	<div id="exer_card_clone" class="exer_card col-xs-12 col-sm-6 col-md-4 col-lg-3 p-1 px-0 d-none">
+		<div class="card card-image" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg);">
+			<div class="text-white text-center d-flex flex-column rgba-black-strong p-3">
+				<div class="d-flex flex-column">
+					<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+					<h4 class="card-title pt-2">Curl de Biceps</h4>
+					<p class="mt-0 mb-0"><small>CONFIGURE LAS SERIES</small></p>
+					<p class="mt-0 mb-0"><small>DE REPETICIONES</small></p>
+					<p class="mt-0 mb-0"><small>DE ESTE EJERCICIO</small></p>
+				</div>
+				<div class="d-flex flex-row justify-content-between mt-2">							
+					<a class="btn btn-sm btn-pink"><i class="fas fa-pen"></i></a>
+					<a class="btn btn-sm btn-pink"><i class="fa fa-trash-alt"></i></a>
+				</div>
+			</div>
+		</div>
+	</div> <!-- Card -->
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS, then MDS -->
 	<script src="js/jquery-3.3.1.js"></script>  
