@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$('.mdb-select').material_select();
 });
 
-// Drop Down Events
+// Drag and Drop Events
 function allowDrop(ev) {
   /* The default handling is to not allow dropping elements. */
   /* Here we allow it by preventing the default behaviour. */
