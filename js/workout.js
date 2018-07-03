@@ -63,17 +63,14 @@ function drop(ev) {
   }
 }
 
-/********************
-/*     Buttons      *
-/********************/
+
+/************************************
+/*  Listado de ejercicios busqueda  *
+/************************************/
 var buttons = document.querySelectorAll(".ejer_search_btn");
 for (var i=0;i<buttons.length;i++) {
   buttons[i].addEventListener("click", addEjerWorkout);
 }  
-
-function aceptar_modal() {
-  console.log("aceptado en modal");
-}
 
 function addEjerWorkout () {
  /* Obtengo datos de la caja de ejercicios */ 
@@ -100,8 +97,14 @@ function addEjerWorkout () {
  $("#caja-ejercicios").removeClass("caja-ejercicios-dragover");
 }
 
+/********************************
+ *  Panel ejercicios en rutina  *
+ ********************************/
+var ejercicio_editado = "";
+
 function editEjerWorkout () {
   var ejer = this.parentNode.parentNode.parentNode.parentNode;
+  ejercicio_editado = ejer.id;
   ejer_imagen = ejer.getElementsByClassName("card-image")[0].style.backgroundImage;
   ejer_muscle = ejer.getElementsByTagName("h6")[0].innerHTML;
   ejer_ejerci = ejer.getElementsByTagName("h4")[0].innerHTML; 
@@ -113,3 +116,55 @@ function editEjerWorkout () {
 function deleteEjerWorkout () {
   this.parentNode.parentNode.parentNode.parentNode.remove();
 }
+
+/********************
+ *  Modal de Sets
+ ********************/
+document.getElementById("sets_n").addEventListener("change", changeSets);
+document.getElementById("aceptar_modal").addEventListener("click", aceptarModal);
+
+function changeSets() {
+  if (this.value >= 1 && this.value <= 10) {
+    var div_sets = document.getElementById("modal_sets");
+    var set_rows = div_sets.getElementsByClassName("sets_row");
+    if (this.value < set_rows.length) {
+      for (var i = set_rows.length; i > this.value; i--)
+        set_rows[i-1].remove();
+    } else if (this.value > set_rows.length) {
+      for (var i = set_rows.length; i < this.value; i++) {
+        var set_clone = set_rows[0].cloneNode(true);
+        div_sets.append(set_clone);
+      }
+    }
+  }
+}
+
+function aceptarModal() {
+  var ejer_card = document.getElementById(ejercicio_editado);
+  var div_series = ejer_card.getElementsByClassName("exer_card_series")[0];
+  var p = div_series.getElementsByTagName("p"); 
+  var length = p.length
+  var i = 1;
+  while (i < length) {
+    p[1].remove();
+    i++;
+  }
+  var n_sets = document.getElementById("sets_n").value;
+  var modal_peso = document.getElementById("modal_peso").options[document.getElementById("modal_peso").selectedIndex].text;
+  var modal_reps = document.getElementById("modal_reps").options[document.getElementById("modal_reps").selectedIndex].text;
+  var modal_series = document.getElementById("modal_sets").getElementsByClassName("sets_row");
+  for (var i = 0; i<modal_series.length; i++ ) {
+    var inputs = modal_series[i].getElementsByTagName("input");
+    var texto = inputs[0].value + " x " + inputs[1].value + " " + modal_peso + " x " + inputs[2].value + "\"";
+    if (i===0) {
+      p[0].innerHTML = "<small>" + texto + "<small>";
+    }
+    else {
+      var p_new = p[0].cloneNode(true);
+      p_new.innerHTML = "<small>" + texto + "<small>";
+      div_series.append(p_new);
+    }
+  }
+}
+
+

@@ -1,3 +1,7 @@
+body {
+    background-color: #EEEEEE;
+}
+
 /* MDB Dropdowns */
 .select-wrapper span.caret {
 	top: 0.7rem;

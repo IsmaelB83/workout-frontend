@@ -233,7 +233,48 @@
 						</div>
 					</div>
 				</div> <!-- Card -->
-			</div>
+				<!-- Card -->
+				<div id="ejer_search_5" class="ejer_search card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
+					<div class="text-white rgba-black-strong py-3 px-3">
+						<div class="d-flex flex-column">
+							<div class="d-flex flex-column">
+								<div class="d-flex flex-row justify-content-between align-items-start">
+									<div class="d-flex flex-column">
+										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Pierna</small></p>
+										<h6 class="card-title mb-2"><strong>Peso muerto</strong></h6>
+									</div>
+									<button class="ejer_search_btn d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></button>
+								</div>
+								<p class="card-text">
+									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi explicabo blanditiis.</small>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-image d-none d-md-block col-3" style="background-image: url(https://games-assets.crossfit.com/a-dlsetup-shdnmmwwqhu7512jh_0.jpg); background-size: cover; background-position: center;">
+					</div>
+				</div> <!-- Card -->
+				<!-- Card -->
+				<div id="ejer_search_6" class="ejer_search card d-flex flex-row mt-2" draggable="true" ondragstart="drag(event)">
+					<div class="card-image d-none d-md-block col-3" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXLRtyCwGIpc1Nr6dJgPAIYLfsZkQTT5ckuA-1JfYVOxjyqUBr); background-size: cover; background-position: center;">
+					</div>
+					<div class="text-white rgba-black-strong py-3 px-3">
+						<div class="d-flex flex-column">
+							<div class="d-flex flex-column">
+								<div class="d-flex flex-row justify-content-between align-items-start">
+									<div class="d-flex flex-column">
+										<p class="result-muscle pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Espalda</small></p>
+										<h6 class="card-title mb-2"><strong>Dominadas</strong></h6>
+									</div>
+									<button class="ejer_search_btn d-inline-flex btn btn-sm btn-pink m-0 p-2" data-toggle="tooltip" data-placement="bottom" title="Añadir ejercicio a rutina"><i class="fa fa-plus"></i></button>
+								</div>
+								<p class="card-text">
+									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi explicabo blanditiis.</small>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div> <!-- Card -->			</div>
 		</div>
 	</div> <!--Buscador ejercicios -->
 
@@ -241,12 +282,12 @@
 	<div id="exer_card_clone" class="exer_card col-xs-12 col-sm-6 col-md-4 col-lg-3 p-1 px-0 d-none" draggable="true" ondragstart="drag(event)">
 		<div class="card card-image" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg);">
 			<div class="text-white text-center d-flex flex-column rgba-black-strong p-3">
-				<div class="d-flex flex-column">
+				<div class="exer_card_series d-flex flex-column">
 					<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
 					<h4 class="card-title pt-2">Curl de Biceps</h4>
-					<p class="mt-0 mb-0"><small>CONFIGURE LAS SERIES</small></p>
-					<p class="mt-0 mb-0"><small>DE REPETICIONES</small></p>
-					<p class="mt-0 mb-0"><small>DE ESTE EJERCICIO</small></p>
+					<p class="mt-0 mb-0"><small>HAZ CLICK EN EDITAR</small></p>
+					<p class="mt-0 mb-0"><small>PARA AÑADIR LAS SERIES</small></p>
+					<p class="mt-0 mb-0"><small>A ESTE EJERCICIO</small></p>
 				</div>
 				<div class="d-flex flex-row justify-content-between mt-2">							
 					<a class="exer_card_edit btn btn-sm btn-pink" data-toggle="modal" data-toggle="modal" data-target="#modal_ejer"><i class="fas fa-pen"></i></a>
@@ -258,7 +299,7 @@
 
 	<!-- Modal ejercicio -->
 	<div id="modal_ejer" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-notify modal-info" role="document">
+		<div class="modal-dialog modal-notify modal-info modal-top-right" role="document">
 			<!--Content-->
 			<div class="modal-content">
 				<!-- Card -->
@@ -285,11 +326,11 @@
 							<div class="form-row d-flex flex-row justify-content-around">
 								<div class="col-12 col-sm-4">
 									<div class="md-form headers-form-row">										
-										<input id="sets_n" type="number" class="form-control form-control-sm pb-1" value="4">
+										<input id="sets_n" type="number" class="form-control form-control-sm pb-1" value="1" min="1" max="10" required>
 										<label>Numero de series</label>
 									</div>
 									<div class="md-form headers-form-row">
-										<select class="mdb-select" value="Reps">
+										<select id="modal_reps" class="mdb-select" value="Reps" required>
 											<option value="1">Reps.</option>
 											<option value="2">Minutes</option>
 											<option value="3">Seconds</option>
@@ -300,76 +341,47 @@
 										<label>Tipo de repeticion</label>
 									</div>
 									<div class="md-form headers-form-row">
-										<select class="mdb-select" value="Kgs.">
+										<select id="modal_peso" class="mdb-select" value="Kgs." required>
 											<option value="1">Kgs.</option>
 											<option value="2">Peso propio</option>
 										</select>
 										<label>Tipo de peso</label>
 									</div>
 								</div>
-								<div class="col-12 col-sm-6">
+								<div id="modal_sets" class="col-12 col-sm-6">
 									<!-- Form row -->
-									<div class="form-row headers-form-row">
-										<div class="col-6">
+									<div class="form-row headers-form-row mb-4">
+										<div class="col-4">
 											<div class="md-form form-group m-0">
-												<label for="set1_r">Repeticiones</label>
+												<label>Repeticiones</label>
 											</div>
 										</div>
-										<div class="col-6">
+										<div class="col-4">
 											<div class="md-form form-group m-0">
-												<label for="set1_w">Peso</label>
+												<label>Peso</label>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<label>Descanso</label>
 											</div>
 										</div>
 									</div> <!-- Form row -->
 									<!-- Form row -->
-									<div class="form-row mt-4">
-										<div class="col-6">
+									<div class="sets_row form-row">
+										<div class="col-4">
 											<div class="md-form form-group m-0">
-												<input id="set1_r" type="number" class="form-control form-control-sm pb-1" value="12">
+												<input type="number" class="form-control form-control-sm pb-1" value="12" required>
 											</div>
 										</div>
-										<div class="col-6">
+										<div class="col-4">
 											<div class="md-form form-group m-0">
-												<input id="set1_w" type="number" class="form-control form-control-sm pb-1" value="18">
+												<input type="number" class="form-control form-control-sm pb-1" value="18" required>
 											</div>
 										</div>
-									</div> <!-- Form row -->
-									<!-- Form row -->
-									<div class="form-row">
-										<div class="col-6">
+										<div class="col-4">
 											<div class="md-form form-group m-0">
-												<input id="set2_r" type="number" class="form-control form-control-sm pb-1" value="12">
-											</div>
-										</div>
-										<div class="col-6">
-											<div class="md-form form-group m-0">
-												<input id="set2_w" type="number" class="form-control form-control-sm pb-1" value="18">
-											</div>
-										</div>
-									</div> <!-- Form row -->
-									<!-- Form row -->
-									<div class="form-row">
-										<div class="col-6">
-											<div class="md-form form-group m-0">
-												<input id="set3_r" type="number" class="form-control form-control-sm pb-1" value="12">
-											</div>
-										</div>
-										<div class="col-6">
-											<div class="md-form form-group m-0">
-												<input id="set3_w" type="number" class="form-control form-control-sm pb-1" value="18">
-											</div>
-										</div>
-									</div> <!-- Form row -->
-									<!-- Form row -->
-									<div class="form-row">
-										<div class="col-6">
-											<div class="md-form form-group m-0">
-												<input id="set4_r" type="number" class="form-control form-control-sm pb-1" value="12">
-											</div>
-										</div>
-										<div class="col-6">
-											<div class="md-form form-group m-0">
-												<input id="set4_w" type="number" class="form-control form-control-sm pb-1" value="18">
+												<input type="number" class="form-control form-control-sm pb-1" value="60" required>
 											</div>
 										</div>
 									</div> <!-- Form row -->
@@ -380,16 +392,15 @@
 					<!-- Third row: buttons-->
 					<div class="rgba-black-strong py-3">
 						<div class="col-12 d-flex flex-row justify-content-between">
-							<a class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal" onclick="aceptar_modal()"><i class="fas fa-check"></i><span class="ml-2">Aceptar</span></a>
-							<a class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-times"></i> <span class="ml-2">Cerrar</span></a>
+							<a id="aceptar_modal" class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-check"></i><span class="ml-2">Aceptar</span></a>
+							<a id="cancelar_modal"  class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-times"></i> <span class="ml-2">Cerrar</span></a>
 						</div>
 					</div>	<!-- Third row -->
 				</div> <!-- Card -->
 			</div>
 			<!--/.Content-->
 		</div>
-	</div>
-	<!-- Central Modal Medium Info-->
+	</div>	<!-- Modal ejercicio -->
 	
 	<br><br><br><br>
 

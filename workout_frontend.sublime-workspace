@@ -4,8 +4,28 @@
 		"selected_items":
 		[
 			[
+				"getElem",
+				"getElementsByClassName"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
 				"get",
 				"getElementsByClassName"
+			],
+			[
+				"getE",
+				"getElementsByClassName"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"back",
+				"background-position\tproperty"
 			],
 			[
 				"clone",
@@ -82,10 +102,6 @@
 			[
 				"font",
 				"font-weight-bold \tBootstrap 4 Class"
-			],
-			[
-				"back",
-				"background-color\tproperty"
 			],
 			[
 				"fle-",
@@ -355,24 +371,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "form_workout.html",
-			"settings":
-			{
-				"buffer_size": 12658,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/workout.js",
-			"settings":
-			{
-				"buffer_size": 2143,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -386,11 +384,11 @@
 		"selected_items":
 		[
 			[
-				"inde",
+				"inden",
 				"Indentation: Reindent Lines"
 			],
 			[
-				"inden",
+				"inde",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -466,22 +464,25 @@
 	},
 	"expanded_folders":
 	[
-		"/home/trama/Desktop/projects/workout-frontend",
-		"/home/trama/Desktop/projects/workout-frontend/css"
+		"/home/trama/Desktop/projects/workout-frontend"
 	],
 	"file_history":
 	[
-		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout_list.html",
+		"/home/trama/Desktop/projects/workout-frontend/muscles.html",
+		"/home/trama/Desktop/projects/workout-frontend/js/.fuse_hidden000001dd00000001",
+		"/home/trama/Desktop/projects/workout-frontend/form_workout.html",
+		"/home/trama/Desktop/projects/workout-frontend/js/workout.js",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_add_routine.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout.html",
 		"/home/trama/Desktop/projects/workout-frontend/form_workout_filled.html",
+		"/home/trama/Desktop/projects/workout-frontend/css/styles.css",
+		"/home/trama/Desktop/projects/workout-frontend/js/DragDropTouch.js",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout_list.html",
 		"/home/trama/Desktop/projects/workout-frontend/js/jquery-3.3.1.js",
 		"/home/trama/Desktop/projects/workout-frontend/base_template.html",
-		"/home/trama/Desktop/projects/workout-frontend/exercise_add_routine.html",
-		"/home/trama/Desktop/projects/workout-frontend/css/styles.css",
 		"/home/trama/Desktop/projects/workout-frontend/css/bootstrap.min.css",
 		"/home/trama/Desktop/projects/workout-frontend/css/mdb_free.css",
 		"/home/trama/Desktop/projects/MDB Free/index.html",
-		"/home/trama/Desktop/projects/workout-frontend/muscles.html",
 		"/home/trama/Desktop/projects/workout-frontend/css/workout_manager.css",
 		"/home/trama/Desktop/projects/workout-frontend/demo_mdb_dashboard_2.html",
 		"/home/trama/Desktop/projects/workout-frontend/demo_md.html",
@@ -490,7 +491,6 @@
 		"/home/trama/Desktop/projects/workout-frontend/workout_manager.css",
 		"/home/trama/Desktop/projects/MDB Free/css/bootstrap.min.css",
 		"/home/trama/Desktop/projects/workout-frontend/muscles_groups.html",
-		"/home/trama/Desktop/projects/workout-frontend/form_workout.html",
 		"/home/trama/Desktop/projects/workout-frontend/css/style.css",
 		"/home/trama/Desktop/projects/workout-frontend/js/script.js",
 		"/home/trama/Desktop/projects/workout-frontend/muscle_groups_carousel.html",
@@ -612,6 +612,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div id=\"ejer_",
+			" onclick=\"addEjerWorkout()\"",
 			"<p class=\"pink-text mb-1\"><i class=\"fas fa-dumbbell\">",
 			"around",
 			"mt",
@@ -660,6 +662,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<div id=\"ejer_search_",
+			"",
 			"<p class=\"result-muscle pink-text mb-1\"><i class=\"fas fa-dumbbell\">",
 			"<span><i class=\"fas fa-dumbbell mr-2\">",
 			"<li class=\"px-3 py-2\">",
@@ -694,68 +698,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "form_workout.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12658,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10589,
-								10589
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2365.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/workout.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2143,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1807,
-								1807
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 279.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -798,7 +742,7 @@
 	"project": "workout_frontend.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Bootstrap, Material Design, Fontawesome & Google Fonts-->
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mdb_pro.css">
+	<!-- Own CSS styles -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Title web -->
+	<title>Workout Planner</title>
+</head>
+
+<body>  
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn-pink waves-effect waves-light" data-toggle="modal" data-target="#modal_ejer">Modal Ejercicio Workout</button>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Modal ejercicio -->
+	<div id="modal_ejer" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-notify modal-info" role="document">
+			<!--Content-->
+			<div class="modal-content">
+				<!-- Card -->
+				<div class="card d-flex flex-column">
+					<!-- First row: title, image, description -->
+					<div class="d-flex flex-row">
+						<div class="text-white rgba-black-strong py-3 px-3">
+							<div class="d-flex flex-column">
+								<p id="modal_ej_muscle" class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Biceps</small></p>
+								<h6 id="modal_ej_ejerci" class="card-title mb-2"><strong>Curl de Biceps</strong></h6>
+								<p id="modal_ej_descri" class="card-text">
+									<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi
+										explicabo blanditiis laborum sequi.
+									</small>
+								</p>
+							</div>
+						</div>
+						<div id="modal_ej_imagen" class="card-image d-none d-md-block col-4" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover; background-position: center;">
+						</div>
+					</div>	<!-- First row -->
+					<!-- Second row: set configuration-->
+					<div class="rgba-black-strong py-3 px-3">
+						<form class="sets-form">
+							<div class="form-row d-flex flex-row justify-content-around">
+								<div class="col-12 col-sm-4">
+									<div class="md-form headers-form-row">										
+										<input id="sets_n" type="number" class="form-control form-control-sm pb-1" value="3" min="1" max="10" required>
+										<label>Numero de series</label>
+									</div>
+									<div class="md-form headers-form-row">
+										<select id="modal_reps" class="mdb-select" value="Reps" required>
+											<option value="1">Reps.</option>
+											<option value="2">Minutes</option>
+											<option value="3">Seconds</option>
+											<option value="4">Kms.</option>
+											<option value="5">AMRAP</option>
+											<option value="6">Fallo</option>
+										</select>
+										<label>Tipo de repeticion</label>
+									</div>
+									<div class="md-form headers-form-row">
+										<select id="modal_peso" class="mdb-select" value="Kgs." required>
+											<option value="1">Kgs.</option>
+											<option value="2">Peso propio</option>
+										</select>
+										<label>Tipo de peso</label>
+									</div>
+								</div>
+								<div id="modal_sets" class="col-12 col-sm-6">
+									<!-- Form row -->
+									<div class="form-row headers-form-row mb-4">
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<label>Repeticiones</label>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<label>Peso</label>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<label>Descanso</label>
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="sets_row form-row">
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<input type="number" class="form-control form-control-sm pb-1" value="12" required>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<input type="number" class="form-control form-control-sm pb-1" value="18" required>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<input type="number" class="form-control form-control-sm pb-1" value="60" required>
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="sets_row form-row">
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<input type="number" class="form-control form-control-sm pb-1" value="12" required>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<input type="number" class="form-control form-control-sm pb-1" value="18" required>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<input type="number" class="form-control form-control-sm pb-1" value="60" required>
+											</div>
+										</div>
+									</div> <!-- Form row -->
+									<!-- Form row -->
+									<div class="sets_row form-row">
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<input type="number" class="form-control form-control-sm pb-1" value="12" required>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<input type="number" class="form-control form-control-sm pb-1" value="18" required>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="md-form form-group m-0">
+												<input type="number" class="form-control form-control-sm pb-1" value="60" required>
+											</div>
+										</div>
+									</div> <!-- Form row -->
+								</div>
+							</div>
+						</form>
+					</div>	<!-- Second row -->
+					<!-- Third row: buttons-->
+					<div class="rgba-black-strong py-3">
+						<div class="col-12 d-flex flex-row justify-content-between">
+							<a id="aceptar_modal" class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-check"></i><span class="ml-2">Aceptar</span></a>
+							<a id="cancelar_modal"  class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-times"></i> <span class="ml-2">Cerrar</span></a>
+						</div>
+					</div>	<!-- Third row -->
+				</div> <!-- Card -->
+			</div>
+			<!--/.Content-->
+		</div>
+	</div>	<!-- Modal ejercicio -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS, then MDS -->
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mdb.min.js"></script>
+	<script src="js/mdb.min_dashboard_pro.js"></script>
+	<script src="js/fontawesome.js"></script>
+	<script src="js/workout.js"></script>
+
+</body>
+
+
+</html>
