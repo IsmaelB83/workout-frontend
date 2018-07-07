@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Bootstrap, Material Design, Fontawesome & Google Fonts-->
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mdb_pro.css">
+	<!-- Own CSS styles -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Title web -->
+	<title>Workout Planner</title>
+</head>
+
+<body>  
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn-pink waves-effect waves-light" data-toggle="modal" data-target="#modal_schedule">Schedule workout</button>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Modal schedule workout -->
+	<div id="modal_schedule" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-notify modal-info" role="document">
+			<!--Content-->
+			<div class="modal-content ">
+				<!-- Card -->
+				<div class="card d-flex flex-column rgba-black-strong">
+					
+					<!-- First row: title, image, description -->
+					<div class="d-flex flex-row">
+						<div class="text-white pt-3 px-3">
+							<div class="d-flex flex-column justify-content-around">
+								<h3 id="modal_ej_muscle" class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Programar rutina</small></h3>
+								<p id="modal_ej_descri" class="card-text my-3">
+									Seleccione uno de sus programas de entrenamiento, asi como el dia que ocupara esta rutina en su programa.
+								</p>
+								<select id="programa" class="mdb-select text-white mb-0">
+									<option value="" disabled selected>Seleccione su programa</option>
+									<option value="" data-icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCbp52hq6jC0ELmHEVhtelFGQuQOLoICaxCaUfN79y9yDGAaHk" class="rounded-circle" selected="">Programa de volumen (12 semanas)</option>
+									<option value="" class="rounded-circle">Programa de acondicionamiento (4 semanas)</option>
+									<option value="" class="rounded-circle">Programa crossfit (16 semanas)</option>
+								</select>
+								<small id="text_prog_activo" class="text-muted text-info">Este es su programa activo</small>
+							</div>
+						</div>
+						<div id="modal_ej_imagen" class="card-image d-none d-md-block col-4" style="background-image: url(https://www.cmdsport.com/app/uploads/2018/04/espana-ya-tiene-425-boxes-de-crossfit.jpg); background-size: cover; background-position: center;">
+						</div>
+					</div>	<!-- First row -->
+
+					<!-- Second row: program information and week days -->
+					<div class="d-flex flex-column py-3 pl-0 pl-sm-3 text-white">
+						<!-- Dias de la semana-->
+						<div class="form-check radio-green d-flex flex-row justify-content-center pl-0">
+							<div class="col-3">
+								<input class="form-check-input" name="radioWeek" type="radio" id="radioL">
+								<label class="form-check-label" for="radioL">Lunes </label>
+							</div>						    	
+							<div class="col-9 text-right text-sm-left">								
+							</div>
+						</div>
+						<div class="form-check radio-green d-flex flex-row justify-content-center pl-0">
+							<div class="col-3">
+								<input class="form-check-input" name="radioWeek" type="radio" id="radioM" disabled="true">
+								<label class="form-check-label" for="radioM">Martes</label>
+							</div>						    	
+							<div class="col-9 text-right text-sm-left">								
+								<a href="" class="text-info">Pecho y Biceps</a>
+							</div>
+						</div>
+						<div class="form-check radio-green d-flex flex-row justify-content-center pl-0">
+							<div class="col-3">
+								<input class="form-check-input" name="radioWeek" type="radio" id="radioX" disabled="true">
+								<label class="form-check-label" for="radioX">Miercoles</label>
+							</div>						    	
+							<div class="col-9 text-right text-sm-left">								
+								<a href="" class="text-info">Espalda y Triceps</a>
+							</div>
+						</div>
+						<div class="form-check radio-green d-flex flex-row justify-content-center pl-0">
+							<div class="col-3">
+								<input class="form-check-input" name="radioWeek" type="radio" id="radioJ">
+								<label class="form-check-label" for="radioJ">Jueves </label>
+							</div>						    	
+							<div class="col-9 text-right text-sm-left">								
+							</div>
+						</div>
+						<div class="form-check radio-green d-flex flex-row justify-content-center pl-0">
+							<div class="col-3">
+								<input class="form-check-input" name="radioWeek" type="radio" id="radioV">
+								<label class="form-check-label" for="radioV">Viernes</label>
+							</div>						    	
+							<div class="col-9 text-right text-sm-left">								
+							</div>
+						</div>
+						<div class="form-check radio-green d-flex flex-row justify-content-center pl-0">
+							<div class="col-3">
+								<input class="form-check-input" name="radioWeek" type="radio" id="radioS">
+								<label class="form-check-label" for="radioS">Sabado</label>
+							</div>						    	
+							<div class="col-9 text-right text-sm-left">								
+							</div>
+						</div>
+						<div class="form-check radio-green d-flex flex-row justify-content-center pl-0">
+							<div class="col-3">
+								<input class="form-check-input" name="radioWeek" type="radio" id="radioD">
+								<label class="form-check-label" for="radioD">Domingo</label>
+							</div>						    	
+							<div class="col-9 text-right text-sm-left">								
+							</div>
+						</div>
+					</div>
+
+					<!-- Third row: buttons-->
+					<div class="py-3">
+						<div class="col-12 d-flex flex-row justify-content-between">
+							<a id="aceptar_modal" class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-check"></i><span class="ml-2">Aceptar</span></a>
+							<a id="cancelar_modal"  class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-times"></i> <span class="ml-2">Cerrar</span></a>
+						</div>
+					</div>	<!-- Third row -->
+				</div> <!-- Card -->
+			</div>
+			<!--/.Content-->
+		</div>
+	</div>	<!-- Modal ejercicio -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS, then MDS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mdb.min.js"></script>
+	<script src="js/mdb.min_dashboard_pro.js"></script>
+	<script src="js/fontawesome.js"></script>
+	<script src="js/workout.js"></script>
+	<script>
+		$(document).ready(function() {
+			var dayOfWeek = document.getElementsByName("radioWeek");
+			$('#programa').on('change', selectProgram);
+
+			for (var i = 0; i<dayOfWeek.length; i++) {
+			  dayOfWeek[i].addEventListener ("change", selectWeekDay);
+			}
+
+			function selectProgram (ev){
+				// Llamada AJAX
+				// Actualizo la rutina y disabled states
+				for (var i = dayOfWeek.length - 1; i >= 0; i--) {
+					dayOfWeek[i].checked = false;
+					dayOfWeek[i].disabled = false;
+					dayOfWeek[i].parentNode.parentNode.lastElementChild.innerHTML = '';
+				}
+			}
+
+			function selectWeekDay (ev) {
+			  // Actualizo la rutina en ese dia
+			  if (this.checked ==true) {
+			    this.parentNode.parentNode.lastElementChild.innerHTML = `<a href="" class="text-success">Pierna Pesada</a>`;
+			  }
+			  // Quito la rutina en el resto de dias
+			  for (var i = dayOfWeek.length - 1; i >= 0; i--) {
+			    if (dayOfWeek[i].checked == false && dayOfWeek[i].disabled == false) {
+			      dayOfWeek[i].parentNode.parentNode.lastElementChild.innerHTML = '';
+			    }
+			  }
+			}
+		});
+	</script>
+</body>
+
+
+</html>

@@ -4,6 +4,86 @@
 		"selected_items":
 		[
 			[
+				"justif",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"just",
+				"justify-content-between \tBootstrap 4 Class"
+			],
+			[
+				"bacgr",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"backgroun",
+				"background-repeat\tproperty"
+			],
+			[
+				"background-",
+				"background-image\tproperty"
+			],
+			[
+				"text-ri",
+				"text-right \tBootstrap 4 Class"
+			],
+			[
+				"day",
+				"dayOfWeek"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"select",
+				"selectWeekDay"
+			],
+			[
+				"justo",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"alig",
+				"align-self-start \tBootstrap 4 Class"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"flex",
+				"flex-flow\tproperty"
+			],
+			[
+				"list",
+				"list-unstyled \tBootstrap 4 Class"
+			],
+			[
+				"bac",
+				"background-image\tproperty"
+			],
+			[
+				"text-c",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"no",
+				"no-repeat\tbackground-repeat"
+			],
+			[
+				"fle",
+				"flex-wrap \tBootstrap 4 Class"
+			],
+			[
+				"d-",
+				"d-flex \tBootstrap 4 Class"
+			],
+			[
 				"getElem",
 				"getElementsByClassName"
 			],
@@ -12,20 +92,12 @@
 				"append"
 			],
 			[
-				"get",
-				"getElementsByClassName"
-			],
-			[
 				"getE",
 				"getElementsByClassName"
 			],
 			[
 				"add",
 				"addEventListener"
-			],
-			[
-				"back",
-				"background-position\tproperty"
 			],
 			[
 				"clone",
@@ -46,10 +118,6 @@
 			[
 				"justi",
 				"justify-content-between \tBootstrap 4 Class"
-			],
-			[
-				"just",
-				"justify-content-end \tBootstrap 4 Class"
 			],
 			[
 				"text",
@@ -76,10 +144,6 @@
 				"align-self-end \tBootstrap 4 Class"
 			],
 			[
-				"alig",
-				"align-self-end \tBootstrap 4 Class"
-			],
-			[
 				"d-xs-",
 				"hidden-xs-down \tBootstrap 4 Class"
 			],
@@ -90,10 +154,6 @@
 			[
 				"ali",
 				"align-self\tproperty"
-			],
-			[
-				"backgroun",
-				"background-image\tproperty"
 			],
 			[
 				"heig",
@@ -214,10 +274,6 @@
 			[
 				"primary",
 				"text-primary \tBootstrap 4 Class"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"wid",
@@ -384,11 +440,15 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
 				"inden",
 				"Indentation: Reindent Lines"
 			],
 			[
-				"inde",
+				"ind",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -401,10 +461,6 @@
 			],
 			[
 				"INDE",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"ind",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -468,20 +524,40 @@
 	],
 	"file_history":
 	[
+		"/home/trama/Desktop/projects/workout-frontend/program_view.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_card_list_program.html",
+		"/home/trama/Desktop/projects/workout-frontend/workout_day_view.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_3/06_assignment_3/conFusion/index.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_3/06_assignment_3/conFusion/aboutus.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_3/06_assignment_3/conFusion/css/styles.css",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/boilerplate_django/index.html",
+		"/home/trama/Desktop/projects/workout-frontend/workout_modal_program.html",
+		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/boilerplate_nodejs/index.html",
+		"/home/trama/Desktop/projects/workout-frontend/workout_day_edit.html",
+		"/home/trama/Desktop/projects/workout-frontend/js/workout.js",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_search.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_card_list_workout.html",
+		"/home/trama/Desktop/projects/workout-frontend/dashboard_card.html",
+		"/home/trama/Desktop/projects/workout-frontend/dashboard_template.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_card_box.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_card_list.html",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_modal_set.html",
+		"/home/trama/Desktop/projects/workout-frontend/css/styles.css",
+		"/home/trama/Desktop/asd.css",
+		"/home/trama/Desktop/projects/workout-frontend/css/mdb_admin_dashboard_452.css",
+		"/home/trama/Desktop/projects/workout-frontend/css/mdb_free.css",
+		"/home/trama/Desktop/projects/workout-frontend/untitled.html",
 		"/home/trama/Desktop/projects/workout-frontend/muscles.html",
 		"/home/trama/Desktop/projects/workout-frontend/js/.fuse_hidden000001dd00000001",
 		"/home/trama/Desktop/projects/workout-frontend/form_workout.html",
-		"/home/trama/Desktop/projects/workout-frontend/js/workout.js",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_add_routine.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout.html",
 		"/home/trama/Desktop/projects/workout-frontend/form_workout_filled.html",
-		"/home/trama/Desktop/projects/workout-frontend/css/styles.css",
 		"/home/trama/Desktop/projects/workout-frontend/js/DragDropTouch.js",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_card_workout_list.html",
 		"/home/trama/Desktop/projects/workout-frontend/js/jquery-3.3.1.js",
 		"/home/trama/Desktop/projects/workout-frontend/base_template.html",
 		"/home/trama/Desktop/projects/workout-frontend/css/bootstrap.min.css",
-		"/home/trama/Desktop/projects/workout-frontend/css/mdb_free.css",
 		"/home/trama/Desktop/projects/MDB Free/index.html",
 		"/home/trama/Desktop/projects/workout-frontend/css/workout_manager.css",
 		"/home/trama/Desktop/projects/workout-frontend/demo_mdb_dashboard_2.html",
@@ -496,7 +572,6 @@
 		"/home/trama/Desktop/projects/workout-frontend/muscle_groups_carousel.html",
 		"/home/trama/Desktop/projects/workout-frontend/index.html",
 		"/home/trama/Desktop/projects/workout-frontend/components/exercise_card_workout.html",
-		"/home/trama/Desktop/projects/workout-frontend/exercise_search.html",
 		"/home/trama/Desktop/projects/workout-frontend/components/exercise_card_result_list.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercuse_search.html",
 		"/home/trama/Desktop/projects/workout-frontend/style.css",
@@ -576,29 +651,11 @@
 		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/grid.html",
 		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_automaticas.html",
 		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_alineadas_verticalmente.html",
-		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_anidadas.html",
-		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/offseting.html",
-		"/home/trama/Desktop/Workspace/bootstrap/myweb/bootstrap.min.css",
-		"/home/trama/Desktop/Workspace/bootstrap/myweb/blog.css",
-		"/home/trama/Desktop/Workspace/bootstrap/myweb/base.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/11-dropdownbuttons.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/10-collapse.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/9-carousel.html",
-		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/Tarjeta SD/bootstrap/9-carousel.html",
-		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/carousel.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/8-masonry-cards.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/7-cards2.html",
-		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/cards.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/6-cards.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/5-grupo-botones.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/3-botones.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/4-botones2.html",
-		"/home/trama/Desktop/Workspace/bootstrap/04-componentes/2-badges-insignias.html",
-		"/home/trama/Desktop/Workspace/bootstrap/4-componentes/1-alerts.html"
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_anidadas.html"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -612,6 +669,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div class=\"form-check checkbox-rounded checkbox-success-filled",
+			"<!-- Card -->\n<div id=\"ejer_search_1\" class=\"ejer_search card d-flex flex-row mt-2\" draggable=\"true\" ondragstart=\"drag(event)\">\n\t<div class=\"text-white rgba-black-strong py-3 px-3\">\n\t\t<div class=\"d-flex flex-column\">\n\t\t\t<div class=\"d-flex flex-column\">\n\t\t\t\t<div class=\"d-flex flex-row justify-content-between align-items-start\">\n\t\t\t\t\t<div class=\"d-flex flex-column\">",
+			"<div class=\"col-12 col-sm-6",
+			"none",
+			"19",
 			"<div id=\"ejer_",
 			" onclick=\"addEjerWorkout()\"",
 			"<p class=\"pink-text mb-1\"><i class=\"fas fa-dumbbell\">",
@@ -662,6 +724,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<div class=\"form-check checkbox-rounded checkbox-success-filled pl-0",
+			"",
+			"<div class=\"col-6",
 			"<div id=\"ejer_search_",
 			"",
 			"<p class=\"result-muscle pink-text mb-1\"><i class=\"fas fa-dumbbell\">",
@@ -705,7 +770,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -742,7 +807,7 @@
 	"project": "workout_frontend.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -776,11 +841,11 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 239.0,
+	"side_bar_width": 307.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -7,7 +7,6 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
-
 /******************************
 /*     Drag and Drop Events   *
 /******************************/
@@ -62,7 +61,6 @@ function drop(ev) {
     div_target.appendChild(exer);
   }
 }
-
 
 /************************************
 /*  Listado de ejercicios busqueda  *
@@ -166,5 +164,3 @@ function aceptarModal() {
     }
   }
 }
-
-
