@@ -4,24 +4,52 @@
 		"selected_items":
 		[
 			[
-				"justif",
-				"justify-content-center \tBootstrap 4 Class"
+				"just",
+				"justify-content-around \tBootstrap 4 Class"
 			],
 			[
-				"just",
-				"justify-content-between \tBootstrap 4 Class"
+				"flo",
+				"float-right \tBootstrap 4 Class"
 			],
 			[
 				"bacgr",
-				"background-size\tproperty"
-			],
-			[
-				"back",
-				"background-position\tproperty"
+				"background-color\tproperty"
 			],
 			[
 				"backgroun",
-				"background-repeat\tproperty"
+				"background-color\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"sc",
+				"scope\tAttr"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-clip\tproperty"
+			],
+			[
+				"padding",
+				"padding\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"justif",
+				"justify-content-center \tBootstrap 4 Class"
 			],
 			[
 				"background-",
@@ -50,14 +78,6 @@
 			[
 				"alig",
 				"align-self-start \tBootstrap 4 Class"
-			],
-			[
-				"padd",
-				"padding\tproperty"
-			],
-			[
-				"flex",
-				"flex-flow\tproperty"
 			],
 			[
 				"list",
@@ -296,10 +316,6 @@
 				"padding-bottom"
 			],
 			[
-				"padding",
-				"padding-top"
-			],
-			[
 				"he",
 				"height"
 			],
@@ -440,15 +456,19 @@
 		"selected_items":
 		[
 			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
 				"inde",
 				"Indentation: Reindent Lines"
 			],
 			[
 				"inden",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"ind",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -470,10 +490,6 @@
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
-			],
-			[
-				"indent",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"indentation\t",
@@ -520,11 +536,15 @@
 	},
 	"expanded_folders":
 	[
-		"/home/trama/Desktop/projects/workout-frontend"
+		"/home/trama/Desktop/projects/workout-frontend",
+		"/home/trama/Desktop/projects/workout-frontend/css"
 	],
 	"file_history":
 	[
+		"/home/trama/Desktop/projects/workout-frontend/css/styles.css",
+		"/home/trama/Desktop/projects/workout-frontend/program_calendar.html",
 		"/home/trama/Desktop/projects/workout-frontend/program_view.html",
+		"/home/trama/Desktop/projects/workout-frontend/dashboard_card_program.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_card_list_program.html",
 		"/home/trama/Desktop/projects/workout-frontend/workout_day_view.html",
 		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_3/06_assignment_3/conFusion/index.html",
@@ -542,7 +562,6 @@
 		"/home/trama/Desktop/projects/workout-frontend/exercise_card_box.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_card_list.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_modal_set.html",
-		"/home/trama/Desktop/projects/workout-frontend/css/styles.css",
 		"/home/trama/Desktop/asd.css",
 		"/home/trama/Desktop/projects/workout-frontend/css/mdb_admin_dashboard_452.css",
 		"/home/trama/Desktop/projects/workout-frontend/css/mdb_free.css",
@@ -649,9 +668,7 @@
 		"/home/trama/Desktop/Share _AddToAny Sharing Plugin for WordPress_ - AddToAny_files/icons.23.svg.css",
 		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_alineadas_horizontalmente.html",
 		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/grid.html",
-		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_automaticas.html",
-		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_alineadas_verticalmente.html",
-		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_anidadas.html"
+		"/home/trama/Desktop/Workspace/bootstrap/00-codigo-y-recursos/grid/columnas_automaticas.html"
 	],
 	"find":
 	{
@@ -754,7 +771,7 @@
 			"fa fa-",
 			"cas"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -770,7 +787,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"input":
 	{

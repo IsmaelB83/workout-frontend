@@ -1,3 +1,7 @@
+.borderred {
+	border: 1px solid red;
+}
+
 body {
 	background-color: #EEEEEE;
 }
@@ -21,30 +25,30 @@ body {
 
 /* MDB Checks */
 .checkbox-rounded [type="checkbox"][class*='filled-in']+label:after {
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .checkbox-success-filled [type="checkbox"][class*='filled-in']:checked+label:after {
-    border-color: #00C851;
-    background-color: #00C851;
+	border-color: #00C851;
+	background-color: #00C851;
 }
 .form-check-input[type=checkbox].filled-in:checked+label:after, label.btn input[type=checkbox].filled-in:checked+label:after {
-    top: 0;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #a6c;
-    background-color: #a6c;
-    z-index: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #a6c;
+	background-color: #a6c;
+	z-index: 0;
 }
 
 .form-check-input[type=radio]:disabled+label:before, label.btn input[type=radio]:disabled+label:before {
-    border-color: #a9a9a9;
-    background-color: darkgrey;
+	border-color: #a9a9a9;
+	background-color: darkgrey;
 }
 
 .form-check-input[type=radio]:checked+label:after, label.btn input[type=radio]:checked+label:after {
 	border-color: #a9a9a9;
-    background-color: #ff0057;
+	background-color: #ff0057;
 }
 
 /* MDB Modals */
@@ -120,6 +124,29 @@ body {
 	color: #999;
 }
 
+/* Body de la card */
+.card-stats-sm .card-body {
+	padding: 8px 8px;
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	
+}
+
+.card-stats-sm .card-body span {
+	font-size: 12px !important;
+}
+
+.card-stats-sm .card-body span:nth-of-type(odd) { 
+	color: #999 !important;
+}
+
+.card-stats-sm .card-body span:nth-of-type(even) { 
+	color: #000 !important;
+}
+
+/* Footer de la card */
 .card-stats .card-footer {
 	border: none;
 	padding: 0px;
@@ -131,8 +158,8 @@ body {
 }
 
 .card-stats .card-footer, .card-stats .card-footer > span {
-    font-size: 12px;
-    line-height: 22px;
+	font-size: 12px;
+	line-height: 22px;
 }
 
 .text-light-grey {
@@ -167,4 +194,56 @@ body {
 .card-icon-rose {
 	background: linear-gradient(60deg, #ec407a, #d81b60);
 	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(233, 30, 99, .4);
+}
+
+/* TABLA */
+table {
+	text-align: center;
+	color: white;
+}
+
+table thead {
+	background-color: #4A4A4A;
+}
+
+table thead tr th {
+	font-weight: bold;
+	font-size: 12px !important;
+}
+
+table tbody tr td {
+	color: black;
+	font-size: 12px !important;
+	font-weight: bold;
+}
+
+table tbody tr td:first-child {
+	color: white !important;
+	background-color: #808080;
+	text-align: center;
+}
+
+@media (max-width: 575px) { 
+	table thead tr th:first-child, table tbody tr td:first-child {
+		width: 100px;
+	}
+}
+
+table td, table th {
+	width: 100px;
+}
+
+table td {
+	padding: 10px !important;
+}
+
+table.table td div {
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.table a {
+	margin: 0 !important;
 }
