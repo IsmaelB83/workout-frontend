@@ -69,6 +69,14 @@ body {
 	font-size: .8rem;
 }
 
+/* Card exercise sm - program */
+.card-exer-sm div:hover {
+	background-color: rgba(0,0,0,.60);
+	-webkit-transition: background-color 150ms linear;
+	-ms-transition: background-color 150ms linear;
+	transition: background-color 150ms linear;
+}
+
 /**************************/
 /*  CARDS TIPO DASHBOARD  */
 /**************************/
@@ -219,8 +227,17 @@ table tbody tr td {
 
 table tbody tr td:first-child {
 	color: white !important;
-	background-color: #808080;
+	background-color: #4A4A4A;
 	text-align: center;
+}
+
+table tbody tr td:first-child div:hover {
+	background-color: #E91E63;
+}
+
+.celda-light-grey {
+	background-color: #C0C0C0;	
+	color: white;
 }
 
 @media (max-width: 575px) { 

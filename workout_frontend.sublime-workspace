@@ -5,7 +5,19 @@
 		[
 			[
 				"just",
-				"justify-content-around \tBootstrap 4 Class"
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"TEXT-w",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"row",
+				"rowSpan"
+			],
+			[
+				"le",
+				"length"
 			],
 			[
 				"flo",
@@ -443,6 +455,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "program_view.html",
+			"settings":
+			{
+				"buffer_size": 34159,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "workout_day_edit.html",
+			"settings":
+			{
+				"buffer_size": 20286,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 5091,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -456,15 +495,15 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
 				"indent",
 				"Indentation: Reindent Lines"
 			],
 			[
 				"ind",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"inde",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -541,11 +580,12 @@
 	],
 	"file_history":
 	[
-		"/home/trama/Desktop/projects/workout-frontend/css/styles.css",
-		"/home/trama/Desktop/projects/workout-frontend/program_calendar.html",
-		"/home/trama/Desktop/projects/workout-frontend/program_view.html",
-		"/home/trama/Desktop/projects/workout-frontend/dashboard_card_program.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_card_list_program.html",
+		"/home/trama/Desktop/projects/workout-frontend/css/styles.css",
+		"/home/trama/Desktop/projects/workout-frontend/exercise_card_list_workout.html",
+		"/home/trama/Desktop/projects/workout-frontend/program_view.html",
+		"/home/trama/Desktop/projects/workout-frontend/program_calendar.html",
+		"/home/trama/Desktop/projects/workout-frontend/dashboard_card_program.html",
 		"/home/trama/Desktop/projects/workout-frontend/workout_day_view.html",
 		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_3/06_assignment_3/conFusion/index.html",
 		"/home/trama/Desktop/mooc fullstack/01_Front_End_Bootstrap_4/Week_3/06_assignment_3/conFusion/aboutus.html",
@@ -556,7 +596,6 @@
 		"/home/trama/Desktop/projects/workout-frontend/workout_day_edit.html",
 		"/home/trama/Desktop/projects/workout-frontend/js/workout.js",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_search.html",
-		"/home/trama/Desktop/projects/workout-frontend/exercise_card_list_workout.html",
 		"/home/trama/Desktop/projects/workout-frontend/dashboard_card.html",
 		"/home/trama/Desktop/projects/workout-frontend/dashboard_template.html",
 		"/home/trama/Desktop/projects/workout-frontend/exercise_card_box.html",
@@ -672,7 +711,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 51.0
 	},
 	"find_in_files":
 	{
@@ -686,6 +725,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div class=\"col-6 col-sm-4 col-md-3 col-lg-2 p-1\">\n\t\t\t\t\t\t\t\t<a href=\"\">",
+			"<a href=\"\" style=\"line-height: 15px;\">",
+			"data-toggle=\"modal\" data-toggle=\"modal\" ",
+			".",
 			"<div class=\"form-check checkbox-rounded checkbox-success-filled",
 			"<!-- Card -->\n<div id=\"ejer_search_1\" class=\"ejer_search card d-flex flex-row mt-2\" draggable=\"true\" ondragstart=\"drag(event)\">\n\t<div class=\"text-white rgba-black-strong py-3 px-3\">\n\t\t<div class=\"d-flex flex-column\">\n\t\t\t<div class=\"d-flex flex-column\">\n\t\t\t\t<div class=\"d-flex flex-row justify-content-between align-items-start\">\n\t\t\t\t\t<div class=\"d-flex flex-column\">",
 			"<div class=\"col-12 col-sm-6",
@@ -741,6 +784,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<div class=\"col-6 col-sm-4 col-md-3 col-lg-2 p-1\">\n\t\t\t\t\t\t\t\t<a data-toggle=\"modal\" data-target=\"#modal_ejer\">",
+			"<a data-toggle=\"modal\" data-target=\"#modal_ejer\" style=\"line-height: 15px;\">",
+			"data-toggle=\"modal\" ",
 			"<div class=\"form-check checkbox-rounded checkbox-success-filled pl-0",
 			"",
 			"<div class=\"col-6",
@@ -771,7 +817,7 @@
 			"fa fa-",
 			"cas"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -780,14 +826,102 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "program_view.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28153,
+								28153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "workout_day_edit.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15061,
+								15061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4247.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4727,
+								4727
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3056.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -824,7 +958,7 @@
 	"project": "workout_frontend.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 94.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -862,7 +996,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 307.0,
+	"side_bar_width": 340.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

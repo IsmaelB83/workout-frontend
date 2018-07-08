@@ -19,9 +19,8 @@
 
 	<body>  
 		<div class="container">
-
 			<!-- Section: header -->
-			<section id="program">
+			<section id="container program">
 				
 				<!-- Header -->
 				<div class="row mt-5">
@@ -56,8 +55,8 @@
 						<h4 class="h4 no-span font-weight-bold mb-4 p-0"><span><i class="fas fa-book mr-3"></i>DETALLE</span></h4>
 						<p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat aut ut nesciunt similique, distinctio soluta sapiente quisquam labore incidunt fuga voluptas repudiandae, aliquam officiis impedit autem, aspernatur tempora nobis praesentium dolore dolor tempore, iure rerum pariatur voluptate magnam! Reiciendis quibusdam, quo ex dignissimos, velit ut a neque porro, sed qui quos quod accusamus illo. Dolores odit, sapiente mollitia temporibus ex quae dolor deleniti molestiae reiciendis, omnis labore aliquid obcaecati vel at? Ducimus ex quia laborum ullam quibusdam vero explicabo perspiciatis, hic est dignissimos! Quia eum et deserunt quo nostrum at eius inventore sed voluptatibus mollitia accusamus, natus consectetur ut sapiente.</p>
 						<!-- Detalles del programa -->
-						<div class="d-flex flex-row flex-wrap justify-content-around">
-							<div class="col-12 p-0 col-lg-3 p-0 d-flex flex-row flex-wrap mt-4">
+						<div class="d-flex flex-row flex-wrap justify-content-between">
+							<div class="col-12 p-0 col-lg-3 d-flex flex-row flex-wrap mt-4">
 								<div class="col-6 p-0">
 									<div class="card card-stats card-stats-sm">
 										<div class="card-body">
@@ -95,24 +94,27 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-12 p-0 col-lg-8 offset-lg-1 text-center mt-4">
+							<div class="col-12 p-0 col-lg-8 text-center mt-4">
+								<span class="d-flex justify-content-start text-muted">
+									<small><strong>Nota:</strong> Haga click en cada una de las fases del programa para ver el detalle</small>
+								</span>
 								<table class="table table-bordered table-responsive">
 									<thead>
 										<tr>
 											<th scope="col">FASE</th>
-											<th scope="col">LU.</th> 
-											<th scope="col">MA.</th>
-											<th scope="col">MI.</th>
-											<th scope="col">JU.</th> 
-											<th scope="col">VI.</th>
-											<th scope="col">SA.</th> 
-											<th scope="col">DO.</th>
+											<th scope="col">L</th> 
+											<th scope="col">M</th>
+											<th scope="col">X</th>
+											<th scope="col">J</th> 
+											<th scope="col">V</th>
+											<th scope="col">S</th> 
+											<th scope="col">D</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td scope="row">
-												<div class="justify-content-center">
+											<td scope="row" class="header_row p-0 m-0">
+												<div class="justify-content-center btn btn-block" style="height: 100px;">
 													<h4 class="font-weight-bold">1</h4>
 													<span>x 8</span>
 												</div>
@@ -120,7 +122,7 @@
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell pink-text"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Pecho y Biceps</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Pecho y Biceps</span></a>
 												</div>
 											</td> 
 											<td scope="row">
@@ -131,13 +133,13 @@
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell pink-text"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Espalda y Triceps</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Espalda y Triceps</span></a>
 												</div>
 											</td> 
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell pink-text"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Pierna</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Pierna</span></a>
 												</div>
 											</td> 
 											<td scope="row">
@@ -148,19 +150,19 @@
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell pink-text"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Fullbody</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Fullbody</span></a>
 												</div>
 											</td> 
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell pink-text"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Hombro y Brazo</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Hombro y Brazo</span></a>
 												</div>
 											</td> 
 										</tr>
 										<tr>
-											<td scope="row">
-												<div class="justify-content-center">
+											<td scope="row" class="header_row p-0 m-0">
+												<div class="justify-content-center btn btn-block" style="height: 100px;">
 													<h4 class="font-weight-bold">2</h4>
 													<span>x 4</span>
 												</div>
@@ -168,13 +170,13 @@
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell text-success"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Torso</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Torso</span></a>
 												</div>
 											</td> 
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell text-success"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Pierna</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Pierna</span></a>
 												</div>
 											</td> 
 											<td scope="row">
@@ -185,7 +187,7 @@
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell text-success"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Fullbody</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Fullbody</span></a>
 												</div>
 											</td> 
 											<td scope="row">
@@ -196,7 +198,7 @@
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell text-success"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Fullbody</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Fullbody</span></a>
 												</div>
 											</td> 
 											<td scope="row">
@@ -206,8 +208,8 @@
 											</td> 
 										</tr>
 										<tr>
-											<td scope="row">
-												<div class="justify-content-center">
+											<td scope="row" class="header_row p-0 m-0">
+												<div class="justify-content-center btn btn-block" style="height: 100px;">
 													<h4 class="font-weight-bold">3</h4>
 													<span>x 8</span>
 												</div>
@@ -215,7 +217,7 @@
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell text-warning"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Pecho y Biceps</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Pecho y Biceps</span></a>
 												</div>
 											</td> 
 											<td scope="row">
@@ -226,13 +228,13 @@
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell text-warning"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Espalda y Triceps</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Espalda y Triceps</span></a>
 												</div>
 											</td> 
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell text-warning"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Pierna</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Pierna</span></a>
 												</div>
 											</td> 
 											<td scope="row">
@@ -243,13 +245,13 @@
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell text-warning"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Fullbody</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Fullbody</span></a>
 												</div>
 											</td> 
 											<td scope="row">
 												<div>
 													<h4 class="w-100 py-0 my-0"><i class="fas fa-dumbbell text-warning"></i></h4>
-													<a href="" style="line-height: 15px;"><span>Hombro y Brazo</span></a>
+													<a data-toggle="modal" data-target="#modal_ejer" style="line-height: 15px;"><span>Hombro y Brazo</span></a>
 												</div>
 											</td> 
 										</tr>						
@@ -263,102 +265,386 @@
 				<!-- Ejercicios -->
 				<div class="row my-5">	
 					<div class="col-12">
-						<h4 class="h4 no-span font-weight-bold mb-4 p-0"><span><i class="fas fa-dumbbell mr-3"></i>ENTRENAMIENTO</span></h4>
+						<h4 class="h4 no-span font-weight-bold p-0"><span><i class="fas fa-dumbbell mr-3"></i>FASES DEL PROGRAMA</span></h4>
 					</div>
-					<div class="col-12">
-						<h4 class="font-weight-bold">Lunes</h4>
-						<div class="row d-flex flex-row flex-wrap">
-							<div class="col-12 col-sm-6 col-lg-6">
-								<div class="card d-flex flex-row mt-2 rgba-black-strong text-white">
-									<div class="card-image d-none d-md-block w-100 col-3" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover; background-position: center;">
-										<a href="" class="d-block" style="height: 100%; width: 100%;"></a>
-									</div>					
-									<div class="d-flex flex-row">
-										<div class="d-flex flex-column p-3 justify-content-around">
-											<a href="">
-												<h5 class="card-title pink-text mb-2"><i class="fas fa-dumbbell mr-2"></i>Biceps</h5>
-											</a>
-											<a href="">
-												<h6 class="card-text mb-2"><strong>Curl de Biceps</strong></h6>
-											</a>
-										</div>
-										<div class="d-flex flex-column p-3 justify-content-around">
-											<span><i class="fas fa-tasks"></i> 4 Series</span>
-											<span><i class="fas fa-stopwatch"></i> 15 Minutos</span>
+					<div class="col-12 py-3">
+						<h4 class="font-weight-bold">FASE 1: 8 Semanas</h4>
+					</div>
+					<div class="col-12 py-3">
+						<h4 class="font-weight-bold">Lunes: Pecho y Biceps</h4>
+						<div class="d-flex flex-row flex-wrap">
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
 										</div>
 									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-6">
-								<div class="card d-flex flex-row mt-2 rgba-black-strong text-white">
-									<div class="card-image d-none d-md-block w-100 col-3" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover; background-position: center;">
-										<a href="" class="d-block" style="height: 100%; width: 100%;"></a>
-									</div>					
-									<div class="d-flex flex-row">
-										<div class="d-flex flex-column p-3 justify-content-around">
-											<a href="">
-												<h5 class="card-title pink-text mb-2"><i class="fas fa-dumbbell mr-2"></i>Biceps</h5>
-											</a>
-											<a href="">
-												<h6 class="card-text mb-2"><strong>Curl de Biceps</strong></h6>
-											</a>
-										</div>
-										<div class="d-flex flex-column p-3 justify-content-around">
-											<span><i class="fas fa-tasks"></i> 4 Series</span>
-											<span><i class="fas fa-stopwatch"></i> 15 Minutos</span>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://www.mipielsana.com/wp-content/uploads/2014/06/Sentadillas-formas.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Quads</h6>
+											<h6 class="card-title">Sentadilla Profunda</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
 										</div>
 									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-6">
-								<div class="card d-flex flex-row mt-2 rgba-black-strong text-white">
-									<div class="card-image d-none d-md-block w-100 col-3" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover; background-position: center;">
-										<a href="" class="d-block" style="height: 100%; width: 100%;"></a>
-									</div>					
-									<div class="d-flex flex-row">
-										<div class="d-flex flex-column p-3 justify-content-around">
-											<a href="">
-												<h5 class="card-title pink-text mb-2"><i class="fas fa-dumbbell mr-2"></i>Biceps</h5>
-											</a>
-											<a href="">
-												<h6 class="card-text mb-2"><strong>Curl de Biceps</strong></h6>
-											</a>
-										</div>
-										<div class="d-flex flex-column p-3 justify-content-around">
-											<span><i class="fas fa-tasks"></i> 4 Series</span>
-											<span><i class="fas fa-stopwatch"></i> 15 Minutos</span>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://www.homeandgym.com/wp-content/uploads/2017/04/sentadilla.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Gluteo</h6>
+											<h6 class="card-title">Sentadilla</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
 										</div>
 									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-6">
-								<div class="card d-flex flex-row mt-2 rgba-black-strong text-white">
-									<div class="card-image d-none d-md-block w-100 col-3" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover; background-position: center;">
-										<a href="" class="d-block" style="height: 100%; width: 100%;"></a>
-									</div>					
-									<div class="d-flex flex-row">
-										<div class="d-flex flex-column p-3 justify-content-around">
-											<a href="">
-												<h5 class="card-title pink-text mb-2"><i class="fas fa-dumbbell mr-2"></i>Biceps</h5>
-											</a>
-											<a href="">
-												<h6 class="card-text mb-2"><strong>Curl de Biceps</strong></h6>
-											</a>
-										</div>
-										<div class="d-flex flex-column p-3 justify-content-around">
-											<span><i class="fas fa-tasks"></i> 4 Series</span>
-											<span><i class="fas fa-stopwatch"></i> 15 Minutos</span>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://sportadictos.com/files/2015/07/deadlift-fitness-girl-in-gym.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Gluteo</h6>
+											<h6 class="card-title">Peso Muerto</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
 										</div>
 									</div>
-								</div>
-							</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(http://www.strongheartsfitness.com/wp-content/uploads/2016/01/1camilleSnatch-1024x682.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Todo</h6>
+											<h6 class="card-title">Snatch</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://gymtalkcom-3625.kxcdn.com/wp-content/uploads/lu1.png);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Todo</h6>
+											<h6 class="card-title">Arrancada</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->						
+						</div>
+					</div>
+					<div class="col-12 py-3">
+						<h4 class="font-weight-bold">Miercoles: Espalda y Triceps</h4>
+						<div class="d-flex flex-row flex-wrap">
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://www.healthkart.com/connect/sites/default/files/styles/hero_web_thumbnail/public/chest_1.png?itok=QqaD6fE9);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXuhvsjEnBV2t8eAX8JpNnUd6YCRh97UkvZJ8b_LNTO3gJlCCK);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://dianabolresults.com/wp-content/uploads/2014/10/Dianabol-Side-Effects.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqkmWfDqRweAvO_CFXR2H8U12_kv1IIVjAqPtQ6YlJWf4NdfsMQQ);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->						
+						</div>
+					</div>
+					<div class="col-12 py-3">
+						<h4 class="font-weight-bold">Jueves: Pierna</h4>
+						<div class="d-flex flex-row flex-wrap">
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://www.bodybuilding.com/images/2016/june/5-back-workouts-for-mass-header-v2-830x467.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzv9JyTX728c-I2m9Kx3dO_pD9EGi7SVU1ZYAktbXcNJY0JGoM);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZ3wq-jXzoVTD5ZtuDTVRGD71v3oOWk33qF6UwhwJF11IWrZ0);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://thumbs.dreamstime.com/b/handsome-model-young-man-training-back-gym-handsome-young-muscular-caucasian-man-model-appearance-working-out-training-103324151.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://www.bodybuilding.com/images/2016/june/10-best-muscle-building-back-exercises-v2-7-700xh.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+						</div>
+					</div>
+					<div class="col-12 py-3">
+						<h4 class="font-weight-bold">Sabado: Full-body</h4>
+						<div class="d-flex flex-row flex-wrap">
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://i.pinimg.com/236x/06/78/42/067842f137379a5c75f240b370d2fa7e--upper-body-paleo.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://http2.mlstatic.com/balon-medicinal-pro-25-lbs-med-ball-pielwall-ballcrossfit-D_NQ_NP_378521-MLM20817804542_072016-F.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(https://i.blogs.es/17df24/cuerda2/450_1000.jpg);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->
+							<!-- Card -->
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+								<a data-toggle="modal" data-target="#modal_ejer">
+									<div class="card card-image card-exer-sm" style="background-image: url(http://media.gettyimages.com/photos/battling-ropes-man-at-gym-workout-exercise-picture-id527392745?s=170667a&w=1007);">
+										<div class="d-flex flex-column text-white text-center d-flex flex-column rgba-black-strong p-2">
+											<h6 class="pink-text"><i class="fas fa-dumbbell"></i> Biceps</h6>
+											<h6 class="card-title">Curl de Biceps</h6>
+											<p class="mt-0 mb-0"><small><i class="fas fa-tasks mr-2"></i>4 Series</small></p>
+											<p class="mt-0 mb-0"><small><i class="fas fa-stopwatch mr-2"></i>15 minutos</small></p>
+										</div>
+									</div>
+								</a>
+							</div> <!-- Card -->						
 						</div>
 					</div>
 				</div> <!-- Ejercicios -->
-
 			</section>
-
 		</div>
+
+		<!-- Modal ejercicio -->
+		<div id="modal_ejer" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-notify modal-info modal-top-right" role="document">
+				<!--Content-->
+				<div class="modal-content">
+					<!-- Card -->
+					<div class="card d-flex flex-column">
+						<!-- First row: title, image, description -->
+						<div class="d-flex flex-row">
+							<div class="text-white rgba-black-strong py-3 px-3">
+								<div class="d-flex flex-column">
+									<p id="modal_ej_muscle" class="pink-text mb-1"><i class="fas fa-dumbbell"></i> <small>Biceps</small></p>
+									<h6 id="modal_ej_ejerci" class="card-title mb-2"><strong>Curl de Biceps</strong></h6>
+									<p id="modal_ej_descri" class="card-text">
+										<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil minus nulla commodi consectetur aperiam reiciendis animi
+											explicabo blanditiis laborum sequi.
+										</small>
+									</p>
+								</div>
+							</div>
+							<div id="modal_ej_imagen" class="card-image d-none d-md-block col-4" style="background-image: url(https://ejerciciosencasa.es/wp-content/uploads/2014/10/Alternativas-curl-biceps-martillo.jpg); background-size: cover; background-position: center;">
+							</div>
+						</div>	<!-- First row -->
+						<!-- Second row: set configuration-->
+						<div class="rgba-black-strong py-3 px-3">
+							<form class="sets-form">
+								<div class="form-row d-flex flex-row justify-content-around">
+									<div class="col-12 col-sm-4">
+										<div class="md-form headers-form-row">										
+											<input id="sets_n" type="number" class="form-control form-control-sm pb-1" value="1" min="1" max="10" required>
+											<label>Numero de series</label>
+										</div>
+										<div class="md-form headers-form-row">
+											<select id="modal_reps" class="mdb-select" value="Reps" required>
+												<option value="1">Reps.</option>
+												<option value="2">Minutes</option>
+												<option value="3">Seconds</option>
+												<option value="4">Kms.</option>
+												<option value="5">AMRAP</option>
+												<option value="6">Fallo</option>
+											</select>
+											<label>Tipo de repeticion</label>
+										</div>
+										<div class="md-form headers-form-row">
+											<select id="modal_peso" class="mdb-select" value="Kgs." required>
+												<option value="1">Kgs.</option>
+												<option value="2">Peso propio</option>
+											</select>
+											<label>Tipo de peso</label>
+										</div>
+									</div>
+									<div id="modal_sets" class="col-12 col-sm-6">
+										<!-- Form row -->
+										<div class="form-row headers-form-row mb-4">
+											<div class="col-4">
+												<div class="md-form form-group m-0">
+													<label>Repeticiones</label>
+												</div>
+											</div>
+											<div class="col-4">
+												<div class="md-form form-group m-0">
+													<label>Peso</label>
+												</div>
+											</div>
+											<div class="col-4">
+												<div class="md-form form-group m-0">
+													<label>Descanso</label>
+												</div>
+											</div>
+										</div> <!-- Form row -->
+										<!-- Form row -->
+										<div class="sets_row form-row">
+											<div class="col-4">
+												<div class="md-form form-group m-0">
+													<input type="number" class="form-control form-control-sm pb-1" value="12" required>
+												</div>
+											</div>
+											<div class="col-4">
+												<div class="md-form form-group m-0">
+													<input type="number" class="form-control form-control-sm pb-1" value="18" required>
+												</div>
+											</div>
+											<div class="col-4">
+												<div class="md-form form-group m-0">
+													<input type="number" class="form-control form-control-sm pb-1" value="60" required>
+												</div>
+											</div>
+										</div> <!-- Form row -->
+									</div>
+								</div>
+							</form>
+						</div>	<!-- Second row -->
+						<!-- Third row: buttons-->
+						<div class="rgba-black-strong py-3">
+							<div class="col-12 d-flex flex-row justify-content-between">
+								<a id="aceptar_modal" class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-check"></i><span class="ml-2">Aceptar</span></a>
+								<a id="cancelar_modal"  class="btn btn-sm btn-pink m-0 ml-2" data-dismiss="modal"><i class="fas fa-times"></i> <span class="ml-2">Cerrar</span></a>
+							</div>
+						</div>	<!-- Third row -->
+					</div> <!-- Card -->
+				</div>
+				<!--/.Content-->
+			</div>
+		</div>	<!-- Modal ejercicio -->
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS, then MDS -->
 		<script src="js/jquery-3.3.1.min.js"></script>  
@@ -368,7 +654,30 @@
 		<script src="js/mdb.min_dashboard_pro.js"></script>
 		<script src="js/fontawesome.js"></script>
 		<script src="js/workout.js"></script>
+		<script>
+			var selectedElements = document.getElementsByClassName("header_row");
+			for (var i=0;i<selectedElements.length;i++) {
+				selectedElements[i].addEventListener("mouseenter", enterfila);
+				selectedElements[i].addEventListener("mouseleave", leavesfila);
+			}
 
+			function enterfila (ev) {
+				console.log("Enters: " + ev.target.cellIndex + " " + ev.target.parentNode.rowIndex);
+				var cells = ev.target.parentNode.getElementsByTagName("td");
+				for (var i=0;i<cells.length;i++) {
+					cells[i].classList.add("celda-light-grey");
+				}
+			}
+
+			function leavesfila (ev) {
+				console.log("Leaves: " + ev.target.cellIndex + " " + ev.target.parentNode.rowIndex);
+				var cells = ev.target.parentNode.getElementsByTagName("td");
+				for (var i=0;i<cells.length;i++) {
+					cells[i].classList.remove("celda-light-grey");
+				}
+			}
+
+		</script>
 	</body>
 
 
